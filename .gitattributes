@@ -1,0 +1,55 @@
+# Set the default (text) behavior
+* text=auto
+
+# Explicitly declare text files that should be normalized
+*.java text
+*.groovy text
+*.xml text
+*.md text
+*.json text
+*.txt text
+*.properties text
+*.xsd text
+*.wsdl text
+*.js text
+*.html text
+*.xhtml text
+*.htm text
+*.xhtm text
+*.css text
+*.ini text
+*.script text
+*.vm text
+
+# Explicitly declare text files that should always have LF line endings
+.gitignore text eol=lf
+.gitattributes text eol=lf
+.gitmodules text eol=lf
+*.ldif text eol=lf
+*.sh text eol=lf
+*.sql text eol=lf
+
+# Explicitly declare text files that should always have CRLF line endings
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Explicitly declare binary files
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.bmp binary
+*.ico binary
+*.ttf binary
+*.zip binary
+*.pdf binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.ppt binary
+*.pptx binary
+*.jar binary
+*.exe binary
+*.tif binary
+*.woff binary

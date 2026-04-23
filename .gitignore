@@ -1,0 +1,12 @@
+# Java
+target/
+
+# General
+.*
+!.gitignore
+!.gitattributes
+!.gitmodules
+
+# IntelliJ
+*.iml
+.idea/

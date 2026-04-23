@@ -1,0 +1,137 @@
+{
+  "info": {
+    "name": "Swift Importer API",
+    "description": "Upload SWIFT XML files and manage Spring Batch jobs",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8080"
+    },
+    {
+      "key": "filePath",
+      "value": ""
+    },
+    {
+      "key": "executionId",
+      "value": ""
+    }
+  ],
+  "item": [
+    {
+      "name": "Upload SWIFT XML",
+      "request": {
+        "method": "POST",
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "src": ""
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/jobs/upload",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "jobs", "upload"]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "const json = pm.response.json();",
+              "pm.collectionVariables.set('filePath', json.filePath);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Start Import Job",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"filePath\": \"{{filePath}}\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/jobs/import-swift-data",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "jobs", "import-swift-data"]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "const json = pm.response.json();",
+              "pm.collectionVariables.set('executionId', json.executionId);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Get Job Status",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/api/jobs/{{executionId}}/status",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "jobs", "{{executionId}}", "status"]
+        }
+      }
+    },
+    {
+      "name": "Job History",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/api/jobs/history?limit=10",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "jobs", "history"],
+          "query": [
+            {
+              "key": "limit",
+              "value": "10"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Restart Job",
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "{{baseUrl}}/api/jobs/restart/{{executionId}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "jobs", "restart", "{{executionId}}"]
+        }
+      }
+    },
+    {
+      "name": "Stop Job",
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "{{baseUrl}}/api/jobs/stop/{{executionId}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "jobs", "stop", "{{executionId}}"]
+        }
+      }
+    }
+  ]
+}

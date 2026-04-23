@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.sps.ids.sepa-importer' is invalid and this project uses 'com.sps.ids.sepa_importer' instead.
+* The original package name 'com.sps.ids.sepa-importer' is invalid and this project uses 'com.sps.ids.swift_importer' instead.
 
 # Getting Started
 

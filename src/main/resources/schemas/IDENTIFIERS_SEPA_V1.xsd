@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- definition of restrictions -->
+    <!-- generic -->
+    <xs:simpleType name="filetypeType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="full|delta"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="modification_typeType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="A|M|D"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="record_keyType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="ID[0-9A-Z]{10}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="record_structureType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Za-z0-9 ]*"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="record_contentType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="D|H"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="record_statusType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="C|RECORD STATUS"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="dateType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([0-9]{4}-[0-9]{2}-[0-9]{2})*|START DATE|STOP DATE"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="genericType">
+        <xs:restriction base="xs:string">
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="file_dateType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{8}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- definition of simple elements -->
+    <xs:element name="modification_type" type="modification_typeType" />
+    <xs:element name="record_key" type="record_keyType" />
+    <xs:element name="record_structure" type="record_structureType" />
+    <xs:element name="record_content_type" type="record_contentType" />
+    <xs:element name="record_status" type="record_statusType" />
+    <xs:element name="start_date" type="dateType" />
+    <xs:element name="stop_date" type="dateType" />
+    <xs:element name="attribute_1" type="genericType" />
+    <xs:element name="attribute_2" type="genericType" />
+    <xs:element name="attribute_3" type="genericType" />
+    <xs:element name="attribute_4" type="genericType" />
+    <xs:element name="attribute_5" type="genericType" />
+    <xs:element name="attribute_6" type="genericType" />
+    <xs:element name="attribute_7" type="genericType" />
+    <xs:element name="attribute_8" type="genericType" />
+    <xs:element name="attribute_9" type="genericType" />
+    <xs:element name="attribute_10" type="genericType" />
+    <xs:element name="attribute_11" type="genericType" />
+    <xs:element name="attribute_12" type="genericType" />
+    <xs:element name="attribute_13" type="genericType" />
+    <xs:element name="attribute_14" type="genericType" />
+    <xs:element name="attribute_15" type="genericType" />
+    <xs:element name="attribute_16" type="genericType" />
+    <xs:element name="attribute_17" type="genericType" />
+    <xs:element name="attribute_18" type="genericType" />
+    <xs:element name="attribute_19" type="genericType" />
+    <xs:element name="attribute_20" type="genericType" />
+    <xs:element name="attribute_21" type="genericType" />
+    <xs:element name="attribute_22" type="genericType" />
+    <xs:element name="attribute_23" type="genericType" />
+    <xs:element name="attribute_24" type="genericType" />
+    <xs:element name="attribute_25" type="genericType" />
+    <xs:element name="attribute_26" type="genericType" />
+    <xs:element name="attribute_27" type="genericType" />
+    <xs:element name="attribute_28" type="genericType" />
+    <xs:element name="attribute_29" type="genericType" />
+    <xs:element name="attribute_30" type="genericType" />
+    <xs:element name="attribute_31" type="genericType" />
+    <xs:element name="attribute_32" type="genericType" />
+    <xs:element name="attribute_33" type="genericType" />
+    <xs:element name="attribute_34" type="genericType" />
+    <xs:element name="attribute_35" type="genericType" />
+    <xs:element name="attribute_36" type="genericType" />
+    <xs:element name="attribute_37" type="genericType" />
+    <xs:element name="attribute_38" type="genericType" />
+    <xs:element name="attribute_39" type="genericType" />
+    <xs:element name="attribute_40" type="genericType" />
+    <xs:element name="attribute_41" type="genericType" />
+    <xs:element name="attribute_42" type="genericType" />
+    <xs:element name="attribute_43" type="genericType" />
+    <xs:element name="attribute_44" type="genericType" />
+    <xs:element name="attribute_45" type="genericType" />
+    <xs:element name="attribute_46" type="genericType" />
+    <xs:element name="attribute_47" type="genericType" />
+    <xs:element name="attribute_48" type="genericType" />
+    <xs:element name="attribute_49" type="genericType" />
+    <xs:element name="attribute_50" type="genericType" />
+
+    <!-- definition of attributes -->
+    <xs:attribute name="product" type="xs:string" />
+    <xs:attribute name="filetype" type="filetypeType" />
+    <xs:attribute name="filedate" type="file_dateType" />
+
+    <!-- definition of complex elements -->
+    <xs:element name="dataexport">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" name="identifiers-sepa-v1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="modification_type" />
+                            <xs:element ref="record_key"/>
+                            <xs:element ref="record_structure"/>
+                            <xs:element ref="record_content_type"/>
+                            <xs:element ref="record_status"/>
+                            <xs:element ref="start_date" minOccurs="0" />
+                            <xs:element ref="stop_date" minOccurs="0" />
+                            <xs:element ref="attribute_1"/>
+                            <xs:element ref="attribute_2"/>
+                            <xs:element ref="attribute_3"/>
+                            <xs:element ref="attribute_4"/>
+                            <xs:element ref="attribute_5"/>
+                            <xs:element ref="attribute_6" minOccurs="0"/>
+                            <xs:element ref="attribute_7" />
+                            <xs:element ref="attribute_8"/>
+                            <xs:element ref="attribute_9"  minOccurs="0" />
+                            <xs:element ref="attribute_10"  minOccurs="0" />
+                            <xs:element ref="attribute_11"  minOccurs="0"/>
+                            <xs:element ref="attribute_12"  minOccurs="0"/>
+                            <xs:element ref="attribute_13"  minOccurs="0"/>
+                            <xs:element ref="attribute_14"  minOccurs="0"/>
+                            <xs:element ref="attribute_15"  minOccurs="0"/>
+                            <xs:element ref="attribute_16"  minOccurs="0"/>
+                            <xs:element ref="attribute_17"  minOccurs="0"/>
+                            <xs:element ref="attribute_18"  minOccurs="0"/>
+                            <xs:element ref="attribute_19"/>
+                            <xs:element ref="attribute_20"  minOccurs="0"/>
+                            <xs:element ref="attribute_21"  minOccurs="0"/>
+                            <xs:element ref="attribute_22"  minOccurs="0"/>
+                            <xs:element ref="attribute_23"  minOccurs="0"/>
+                            <xs:element ref="attribute_24"  minOccurs="0"/>
+                            <xs:element ref="attribute_25"  minOccurs="0"/>
+                            <xs:element ref="attribute_26"  minOccurs="0"/>
+                            <xs:element ref="attribute_27"  minOccurs="0"/>
+                            <xs:element ref="attribute_28"  minOccurs="0"/>
+                            <xs:element ref="attribute_29"  minOccurs="0"/>
+                            <xs:element ref="attribute_30"  minOccurs="0"/>
+                            <xs:element ref="attribute_31"  minOccurs="0"/>
+                            <xs:element ref="attribute_32"  minOccurs="0"/>
+                            <xs:element ref="attribute_33"  minOccurs="0"/>
+                            <xs:element ref="attribute_34"  minOccurs="0"/>
+                            <xs:element ref="attribute_35"  minOccurs="0"/>
+                            <xs:element ref="attribute_36"  minOccurs="0"/>
+                            <xs:element ref="attribute_37"  minOccurs="0"/>
+                            <xs:element ref="attribute_38"  minOccurs="0"/>
+                            <xs:element ref="attribute_39"/>
+                            <xs:element ref="attribute_40"  minOccurs="0"/>
+                            <xs:element ref="attribute_41"  minOccurs="0"/>
+                            <xs:element ref="attribute_42"  minOccurs="0"/>
+                            <xs:element ref="attribute_43"  minOccurs="0" maxOccurs="0"/>
+                            <xs:element ref="attribute_44"  minOccurs="0" maxOccurs="0"/>
+                            <xs:element ref="attribute_45"  minOccurs="0" maxOccurs="0"/>
+                            <xs:element ref="attribute_46"  minOccurs="0" maxOccurs="0"/>
+                            <xs:element ref="attribute_47"  minOccurs="0" maxOccurs="0"/>
+                            <xs:element ref="attribute_48"  minOccurs="0" maxOccurs="0"/>
+                            <xs:element ref="attribute_49"  minOccurs="0" maxOccurs="0"/>
+                            <xs:element ref="attribute_50"  minOccurs="0" maxOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute ref="product" use="required" />
+            <xs:attribute ref="filetype" use="required" />
+            <xs:attribute ref="filedate" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

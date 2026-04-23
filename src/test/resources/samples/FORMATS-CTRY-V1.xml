@@ -1,0 +1,3924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataexport product="formats-ctry-v1" filetype="full" filedate="20260327">
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000025M</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>H</record_content_type>
+		<record_status>RECORD STATUS</record_status>
+		<start_date>START DATE</start_date>
+		<stop_date>STOP DATE</stop_date>
+		<attribute_1>COUNTRY CODE</attribute_1>
+		<attribute_2>COUNTRY NAME</attribute_2>
+		<attribute_3>ACCOUNT NB FORMAT STANDARD TYPE</attribute_3>
+		<attribute_4>DESCRIPTION</attribute_4>
+		<attribute_5>DESCRIPTION IN LL</attribute_5>
+		<attribute_6>ACRONYM</attribute_6>
+		<attribute_7>FORMAT EXAMPLE WITH SEPARATORS</attribute_7>
+		<attribute_8>FORMAT EXAMPLE WITHOUT SEPARATORS</attribute_8>
+		<attribute_9>LETTER FORMAT</attribute_9>
+		<attribute_10>REGEX FORMAT</attribute_10>
+		<attribute_11>ELEMENT NAMES</attribute_11>
+		<attribute_12>MIN LENGTH</attribute_12>
+		<attribute_13>MAX LENGTH</attribute_13>
+		<attribute_14>ID TYPE</attribute_14>
+		<attribute_15>PRESENCE</attribute_15>
+		<attribute_16>NOTES</attribute_16>
+		<attribute_17>BIC6</attribute_17>
+		<attribute_18>BANK ID FROM</attribute_18>
+		<attribute_19>BANK ID TO</attribute_19>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000037C</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>AO</attribute_1>
+		<attribute_2>ANGOLA</attribute_2>
+		<attribute_3>national</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>Número de Identificação Bancária</attribute_5>
+		<attribute_7>005200000209187410000</attribute_7>
+		<attribute_8>005200000209187410000</attribute_8>
+		<attribute_9>BBBBRRRRAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{4}[0-9]{4}[0-9]{13}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE,ACCOUNT</attribute_11>
+		<attribute_12>21</attribute_12>
+		<attribute_13>21</attribute_13>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000037D</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>AO</attribute_1>
+		<attribute_2>ANGOLA</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>non-ISO IBAN</attribute_4>
+		<attribute_7>AO06 0052 0000 0366 5034 1014 9</attribute_7>
+		<attribute_8>AO06005200000366503410149</attribute_8>
+		<attribute_9>CCKKBBBBRRRRAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>AO[0-9]{2}[0-9]{4}[0-9]{4}[0-9]{13}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,BANK_CODE,BRANCH_CODE,ACCOUNT</attribute_11>
+		<attribute_12>25</attribute_12>
+		<attribute_13>25</attribute_13>
+		<attribute_14>AO-NCC8</attribute_14>
+		<attribute_15>Optional</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10)</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000037I</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>AU</attribute_1>
+		<attribute_2>AUSTRALIA</attribute_2>
+		<attribute_3>national</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_7>012345348342001</attribute_7>
+		<attribute_8>012345348342001</attribute_8>
+		<attribute_9>BBBRRRAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{3}[0-9]{3}[0-9]{5,9}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE,ACCOUNT</attribute_11>
+		<attribute_12>11</attribute_12>
+		<attribute_13>15</attribute_13>
+		<attribute_14>AU-BSB6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO0000000395</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>BE</attribute_1>
+		<attribute_2>BELGIUM</attribute_2>
+		<attribute_3>national</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>Rekeningnummer / Numéro de compte</attribute_5>
+		<attribute_7>000-1710033-20</attribute_7>
+		<attribute_8>000171003320</attribute_8>
+		<attribute_9>BBBAAAAAAAKK</attribute_9>
+		<attribute_10>[0-9]{3}-{0,1}[0-9]{7}-{0,1}[0-9]{2}</attribute_10>
+		<attribute_11>BANK_CODE,ACCOUNT,CHECKSUM</attribute_11>
+		<attribute_12>12</attribute_12>
+		<attribute_13>12</attribute_13>
+		<attribute_15>Unknown</attribute_15>
+		<attribute_16>Checksum: Divide the first 10 digits by 97. If the remainder is 00, then the check digits are 97. Otherwise the check digits are the remainders.</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO0000000396</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>BE</attribute_1>
+		<attribute_2>BELGIUM</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>IBAN</attribute_4>
+		<attribute_7>BE05 2100 2335 9975</attribute_7>
+		<attribute_8>BE05210023359975</attribute_8>
+		<attribute_9>CCKKBBBAAAAAAAKK</attribute_9>
+		<attribute_10>BE[0-9]{2}[0-9]{3}[0-9]{7}[0-9]{2}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,BANK_CODE,ACCOUNT,CHECKSUM</attribute_11>
+		<attribute_12>16</attribute_12>
+		<attribute_13>16</attribute_13>
+		<attribute_14>BE-BC3</attribute_14>
+		<attribute_15>Mandatory</attribute_15>
+		<attribute_16>CHECKSUM: ISO/IEC 7064 (MOD97-10), CHECKSUM2: The calculated check digit is derived by concatenating the first two sections of the Basic Bank Account Number {Bank code &amp; Account number) and calculating the remainder on dividing this by 97. If the remainder is equal to &lt;0&gt;, then the calculated check digit is taken to be &lt;97&gt;.</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003AJ</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>BR</attribute_1>
+		<attribute_2>BRAZIL</attribute_2>
+		<attribute_3>national</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>Número da conta</attribute_5>
+		<attribute_7>0000195710</attribute_7>
+		<attribute_8>0000195710</attribute_8>
+		<attribute_9>AAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{10}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>10</attribute_12>
+		<attribute_13>10</attribute_13>
+		<attribute_14>BR-COMPE7</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003AK</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>BR</attribute_1>
+		<attribute_2>BRAZIL</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>IBAN</attribute_4>
+		<attribute_7>BR89 0036 0305 0407 2000 0195 710P 1</attribute_7>
+		<attribute_8>BR8900360305040720000195710P1</attribute_8>
+		<attribute_9>CCKKBBBBBBBBRRRRRAAAAAAAAAATO</attribute_9>
+		<attribute_10>BR[0-9]{2}[0-9]{8}[0-9]{5}[0-9]{10}[A-Z]{1}[A-Z0-9]{1}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,BANK_CODE,BRANCH_CODE,ACCOUNT,ACCOUNT_TYPE,OTHER_CODE</attribute_11>
+		<attribute_12>29</attribute_12>
+		<attribute_13>29</attribute_13>
+		<attribute_14>BR-CB8</attribute_14>
+		<attribute_15>Optional</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10), OTHERCODE: Owner account position</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003AT</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>BW</attribute_1>
+		<attribute_2>BOTSWANA</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>Account number</attribute_5>
+		<attribute_7>0004704032059</attribute_7>
+		<attribute_8>0004704032059</attribute_8>
+		<attribute_9>AAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{7,13}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>7</attribute_12>
+		<attribute_13>13</attribute_13>
+		<attribute_14>BW-RN6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003B4</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>CA</attribute_1>
+		<attribute_2>CANADA</attribute_2>
+		<attribute_3>central bank</attribute_3>
+		<attribute_4>Bank of Canada</attribute_4>
+		<attribute_5>Account number</attribute_5>
+		<attribute_7>33792403</attribute_7>
+		<attribute_8>33792403</attribute_8>
+		<attribute_9>OOOOOAAA</attribute_9>
+		<attribute_10>[0-9]{5}[0-9]{3}</attribute_10>
+		<attribute_11>OTHER_CODE,ACCOUNT</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>8</attribute_13>
+		<attribute_14>CA-RN9</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+		<attribute_16>Other Code known as Client Code</attribute_16>
+		<attribute_17>BCANCA</attribute_17>
+		<attribute_18>177</attribute_18>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003B7</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>CA</attribute_1>
+		<attribute_2>CANADA</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>Account number</attribute_5>
+		<attribute_7>0001230720131234560</attribute_7>
+		<attribute_8>0001230720131234560</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9A-Z]{6,19}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>19</attribute_13>
+		<attribute_14>CA-RN9</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003C7</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>CI</attribute_1>
+		<attribute_2>COTE D'IVOIRE</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>non-ISO IBAN</attribute_4>
+		<attribute_7>CI93 CI15 0010 0110 1630 0368 4878</attribute_7>
+		<attribute_8>CI93CI1500100110163003684878</attribute_8>
+		<attribute_9>CCKKBBBBBAAAAAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>CI[0-9]{2}[A-Z0-9]{5}[0-9]{19}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,BANK_CODE,ACCOUNT</attribute_11>
+		<attribute_12>28</attribute_12>
+		<attribute_13>28</attribute_13>
+		<attribute_14>CI-UEMOA5</attribute_14>
+		<attribute_15>Optional</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10)</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003CX</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>CN</attribute_1>
+		<attribute_2>CHINA</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>帐号</attribute_5>
+		<attribute_7>0393804802398402862677892008128901</attribute_7>
+		<attribute_8>0393804802398402862677892008128901</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[A-Z0-9]{6,34}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>34</attribute_13>
+		<attribute_14>CN-CNAPS12</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003HQ</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>DE</attribute_1>
+		<attribute_2>GERMANY</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>IBAN</attribute_4>
+		<attribute_7>DE45 7005 0000 3901 1903 15</attribute_7>
+		<attribute_8>DE45700500003901190315</attribute_8>
+		<attribute_9>CCKKBBBBRRRRAAAAAAAAAA</attribute_9>
+		<attribute_10>DE[0-9]{2}[0-9]{4}[0-9]{4}[0-9]{10}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,BANK_CODE,BRANCH_CODE,ACCOUNT</attribute_11>
+		<attribute_12>22</attribute_12>
+		<attribute_13>22</attribute_13>
+		<attribute_14>DE-BLZ8</attribute_14>
+		<attribute_15>Mandatory</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10)</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003HR</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>DE</attribute_1>
+		<attribute_2>GERMANY</attribute_2>
+		<attribute_3>national</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>Kontonummer</attribute_5>
+		<attribute_7>390 11 903 15</attribute_7>
+		<attribute_8>3901190315</attribute_8>
+		<attribute_9>AAAAAAAAAK</attribute_9>
+		<attribute_10>[0-9]{9}[0-9]{1}</attribute_10>
+		<attribute_11>ACCOUNT,CHECKSUM</attribute_11>
+		<attribute_12>10</attribute_12>
+		<attribute_13>10</attribute_13>
+		<attribute_15>Unknown</attribute_15>
+		<attribute_16>CHECKSUM: There are numerous check algorithms. All the validation methods are based on thesame principle: Modulus 10 or 11 using weighting factors.</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003I2</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>DK</attribute_1>
+		<attribute_2>DENMARK</attribute_2>
+		<attribute_3>national</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>Kontonummer</attribute_5>
+		<attribute_7>02164069150810</attribute_7>
+		<attribute_8>02164069150810</attribute_8>
+		<attribute_9>BBBBAAAAAAAAAK</attribute_9>
+		<attribute_10>[0-9]{0,4}[0-9]{9}[0-9]{1}</attribute_10>
+		<attribute_11>BANK_CODE,ACCOUNT,CHECKSUM</attribute_11>
+		<attribute_12>10</attribute_12>
+		<attribute_13>14</attribute_13>
+		<attribute_15>Unknown</attribute_15>
+		<attribute_16>BANKCODE: SEPARATOR. Zero's used to pad out elements to the maximun value. CHECKSUM: Algorithm Unknown</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003I3</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>DK</attribute_1>
+		<attribute_2>DENMARK</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>IBAN</attribute_4>
+		<attribute_7>DK64 0216 4069 1508 10</attribute_7>
+		<attribute_8>DK6402164069150810</attribute_8>
+		<attribute_9>CCKKBBBBAAAAAAAAAK</attribute_9>
+		<attribute_10>DK[0-9]{2}[0-9]{4}[0-9]{9}[0-9]{1}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,BANK_CODE,ACCOUNT,CHECKSUM</attribute_11>
+		<attribute_12>18</attribute_12>
+		<attribute_13>18</attribute_13>
+		<attribute_14>DK-RN4</attribute_14>
+		<attribute_15>Mandatory</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10), CHECKSUM2: Algorithm Unknown</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003KA</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>ES</attribute_1>
+		<attribute_2>SPAIN</attribute_2>
+		<attribute_3>national</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>Número de cuenta</attribute_5>
+		<attribute_7>00810114420001275535</attribute_7>
+		<attribute_8>00810114420001275535</attribute_8>
+		<attribute_9>BBBBRRRRKKAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{4}[0-9]{4}[0-9]{1}[0-9]{1}[0-9]{10}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE,CHECKSUM,CHECKSUM,ACCOUNT</attribute_11>
+		<attribute_12>20</attribute_12>
+		<attribute_13>20</attribute_13>
+		<attribute_15>Unknown</attribute_15>
+		<attribute_16>CHECKSUM1: A Modulus 11-check algorithm with weights is used to validate the account number structure. The weight table to be used is the following: 1, 2, 4, 8, 5, 10, 9, 7, 3, 6. To validate bank and branch codes, the digits are multiplied by their respective weights, added up and divided by 11. The remainder is subtracted from 11. The result is the check digit. CHECKSUM2: same as CHECKSUM1.</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003KB</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>ES</attribute_1>
+		<attribute_2>SPAIN</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>IBAN</attribute_4>
+		<attribute_7>ES68 0081 0114 4200 0127 5535</attribute_7>
+		<attribute_8>ES6800810114420001275535</attribute_8>
+		<attribute_9>CCKKBBBBRRRRKKAAAAAAAAAA</attribute_9>
+		<attribute_10>ES[0-9]{2}[0-9]{4}[0-9]{4}[0-9]{1}[0-9]{1}[0-9]{10}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,BANK_CODE,BRANCH_CODE,CHECKSUM,CHECKSUM,ACCOUNT</attribute_11>
+		<attribute_12>24</attribute_12>
+		<attribute_13>24</attribute_13>
+		<attribute_14>ES-NCC8</attribute_14>
+		<attribute_15>Mandatory</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10). CHECKSUM2: A Modulus 11-check algorithm with weights is used to validate the account number structure. The weight table to be used is the following: 1, 2, 4, 8, 5, 10, 9, 7, 3, 6. To validate bank and branch codes, the digits are multiplied by their respective weights, added up and divided by 11. The remainder is subtracted from 11. The result is the check digit. CHECKSUM3: same as CHECKSUM2.</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003KV</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>FI</attribute_1>
+		<attribute_2>FINLAND</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>IBAN</attribute_4>
+		<attribute_7>FI33 1572 3000 5005 04</attribute_7>
+		<attribute_8>FI3315723000500504</attribute_8>
+		<attribute_9>CCKKBBBAAAAAAAAAAA</attribute_9>
+		<attribute_10>FI[0-9]{2}[0-9]{3}[0-9]{11}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,BANK_CODE,ACCOUNT</attribute_11>
+		<attribute_12>18</attribute_12>
+		<attribute_13>18</attribute_13>
+		<attribute_14>FI-R3</attribute_14>
+		<attribute_15>Mandatory</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10). Only IBAN used for payments</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003L8</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>FR</attribute_1>
+		<attribute_2>FRANCE</attribute_2>
+		<attribute_3>national</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>Releve d'Identite Bancaire</attribute_5>
+		<attribute_7>13825002000877673388926</attribute_7>
+		<attribute_8>13825002000877673388926</attribute_8>
+		<attribute_9>BBBBBRRRRRAAAAAAAAAAAKK</attribute_9>
+		<attribute_10>[0-9]{5}[0-9]{5}[A-Z0-9]{11}[0-9]{2}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE,ACCOUNT,CHECKSUM</attribute_11>
+		<attribute_12>23</attribute_12>
+		<attribute_13>23</attribute_13>
+		<attribute_15>Unknown</attribute_15>
+		<attribute_16>CHECKSUM: A uniform check algorithm is applied. Validation of the RIB is based on a modulus 97 method and is applied as follows: Compose the RIB with 5-5-11-2 digits without separators and/or special characters: bank code (5 digits), branch code (5 digits), account number (11 digits), check digits (2 digits). Add leading zeros and convert alphabetic characters to numeric value – See ChecksumTech.  After dividing by 97, the remainder must be equal to zero.</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003L9</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>FR</attribute_1>
+		<attribute_2>FRANCE</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>IBAN</attribute_4>
+		<attribute_7>FR76 1382 5002 0008 7767 3388 926</attribute_7>
+		<attribute_8>FR7613825002000877673388926</attribute_8>
+		<attribute_9>CCKKBBBBBRRRRRAAAAAAAAAAAKK</attribute_9>
+		<attribute_10>FR[0-9]{2}[0-9]{5}[0-9]{5}[A-Z0-9]{11}[0-9]{2}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,BANK_CODE,BRANCH_CODE,ACCOUNT,CHECKSUM</attribute_11>
+		<attribute_12>27</attribute_12>
+		<attribute_13>27</attribute_13>
+		<attribute_14>FR-CBG10</attribute_14>
+		<attribute_15>Mandatory</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10), CHECKSUM2: A uniform check algorithm is applied. Validation of the RIB is based on a modulus 97 method and is applied as follows: Compose the RIB with 5-5-11-2 digits without separators and/or special characters: bank code (5 digits), branch code (5 digits), account number (11 digits), check digits (2 digits). Add leading zeros and convert alphabetic characters to numeric value – See ChecksumTech.  After dividing by 97, the remainder must be equal to zero.</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003LC</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>GB</attribute_1>
+		<attribute_2>UNITED KINGDOM</attribute_2>
+		<attribute_3>national</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>Account number</attribute_5>
+		<attribute_7>31219065</attribute_7>
+		<attribute_8>31219065</attribute_8>
+		<attribute_9>AAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{8}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>8</attribute_13>
+		<attribute_14>GB-SC6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003LD</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>GB</attribute_1>
+		<attribute_2>UNITED KINGDOM</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>IBAN</attribute_4>
+		<attribute_7>GB92 MIDL 4002 5031 2190 65</attribute_7>
+		<attribute_8>GB92MIDL40025031219065</attribute_8>
+		<attribute_9>CCKKBBBBRRRRRRAAAAAAAA</attribute_9>
+		<attribute_10>GB[0-9]{2}[A-Z]{4}[0-9]{6}[0-9]{8}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,BANK_CODE,BRANCH_CODE,ACCOUNT</attribute_11>
+		<attribute_12>22</attribute_12>
+		<attribute_13>22</attribute_13>
+		<attribute_14>GB-IBAN10</attribute_14>
+		<attribute_15>Mandatory</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10)</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003LQ</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>GH</attribute_1>
+		<attribute_2>GHANA</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_7>5011010135831501</attribute_7>
+		<attribute_8>5011010135831501</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{10,16}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>10</attribute_12>
+		<attribute_13>16</attribute_13>
+		<attribute_14>GH-SC6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003LX</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>GH</attribute_1>
+		<attribute_2>GHANA</attribute_2>
+		<attribute_3>central bank</attribute_3>
+		<attribute_4>Bank of Ghana</attribute_4>
+		<attribute_7>1018131461887</attribute_7>
+		<attribute_8>1018131461887</attribute_8>
+		<attribute_9>AAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{13}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>13</attribute_12>
+		<attribute_13>13</attribute_13>
+		<attribute_14>GH-SC6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+		<attribute_17>BAGHGH</attribute_17>
+		<attribute_18>01</attribute_18>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003NK</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>HK</attribute_1>
+		<attribute_2>HONG KONG</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_7>01970000024144700000D</attribute_7>
+		<attribute_8>01970000024144700000D</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[A-Z0-9]{6,21}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>21</attribute_13>
+		<attribute_14>HK-ICC6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003QI</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>ID</attribute_1>
+		<attribute_2>INDONESIA</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>Nomor akun</attribute_5>
+		<attribute_7>3665IDRCUA1234567890</attribute_7>
+		<attribute_8>3665IDRCUA1234567890</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[A-Z0-9]{9,20}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>9</attribute_12>
+		<attribute_13>20</attribute_13>
+		<attribute_14>ID-NCC7</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003RZ</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>ID</attribute_1>
+		<attribute_2>INDONESIA</attribute_2>
+		<attribute_3>central bank</attribute_3>
+		<attribute_4>Bank Indonesia</attribute_4>
+		<attribute_5>Nomor akun</attribute_5>
+		<attribute_7>560411911</attribute_7>
+		<attribute_8>560411911</attribute_8>
+		<attribute_9>AAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{9}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>9</attribute_12>
+		<attribute_13>9</attribute_13>
+		<attribute_14>ID-NCC7</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+		<attribute_17>INDOID</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003S3</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>IE</attribute_1>
+		<attribute_2>IRELAND</attribute_2>
+		<attribute_3>national</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>Account number</attribute_5>
+		<attribute_7>16110319</attribute_7>
+		<attribute_8>16110319</attribute_8>
+		<attribute_9>AAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{8}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>8</attribute_13>
+		<attribute_14>IE-SC6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003S4</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>IE</attribute_1>
+		<attribute_2>IRELAND</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>IBAN</attribute_4>
+		<attribute_7>IE29 AIBK 9311 5212 3456 78</attribute_7>
+		<attribute_8>IE29AIBK93115212345678</attribute_8>
+		<attribute_9>CCKKBBBBRRRRRRAAAAAAAA</attribute_9>
+		<attribute_10>IE[0-9]{2}[A-Z]{4}[0-9]{6}[0-9]{8}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,BANK_CODE,BRANCH_CODE,ACCOUNT</attribute_11>
+		<attribute_12>22</attribute_12>
+		<attribute_13>22</attribute_13>
+		<attribute_14>IE-ISC10</attribute_14>
+		<attribute_15>Mandatory</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10)</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003V9</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>IT</attribute_1>
+		<attribute_2>ITALY</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>IBAN</attribute_4>
+		<attribute_7>IT49 S020 0802 0040 0010 3890 690</attribute_7>
+		<attribute_8>IT49S0200802004000103890690</attribute_8>
+		<attribute_9>CCKKKBBBBBRRRRRAAAAAAAAAAAA</attribute_9>
+		<attribute_10>IT[0-9]{2}[A-Z]{1}[0-9]{5}[0-9]{5}[A-Z0-9]{12}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,CHECKSUM,BANK_CODE,BRANCH_CODE,ACCOUNT</attribute_11>
+		<attribute_12>27</attribute_12>
+		<attribute_13>27</attribute_13>
+		<attribute_14>IT-ABICAB10</attribute_14>
+		<attribute_15>Mandatory</attribute_15>
+		<attribute_16>CHECKSUM1:ISO/IEC 7064 (MOD97-10) CHECKSUM2: All financial institutions use the same validation method and have developed their own software. The check digit is calculated on the 22 characters (bank, branch code and account number). Each character is given a numeric value depending on whether the character is in an odd or in an even position in the string of 22. The numbers are added up and the result is divided by 26. The remainder is converted into an alphabetic character, which is the check digit. Domestic automated clearing systems allow for the check digit to be absent, in which case it is “blank” valued. The remaining structure is validated.</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003VA</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>IT</attribute_1>
+		<attribute_2>ITALY</attribute_2>
+		<attribute_3>national+bank ID</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>Numero di Conto</attribute_5>
+		<attribute_7>S0200802004000103890690</attribute_7>
+		<attribute_8>S0200802004000103890690</attribute_8>
+		<attribute_9>KBBBBBRRRRRAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[A-Z]{1}[0-9]{5}[0-9]{5}[A-Z0-9]{12}</attribute_10>
+		<attribute_11>CHECKSUM,BANK_CODE,BRANCH_CODE,ACCOUNT</attribute_11>
+		<attribute_12>23</attribute_12>
+		<attribute_13>23</attribute_13>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003VB</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>IT</attribute_1>
+		<attribute_2>ITALY</attribute_2>
+		<attribute_3>national</attribute_3>
+		<attribute_4>IT-ABICAB10</attribute_4>
+		<attribute_5>Numero di Conto</attribute_5>
+		<attribute_7>000103890690</attribute_7>
+		<attribute_8>000103890690</attribute_8>
+		<attribute_9>AAAAAAAAAAAA</attribute_9>
+		<attribute_10>[A-Z0-9]{12}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>12</attribute_12>
+		<attribute_13>12</attribute_13>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003VC</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>JE</attribute_1>
+		<attribute_2>JERSEY</attribute_2>
+		<attribute_3>national</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_7>57874569</attribute_7>
+		<attribute_8>57874569</attribute_8>
+		<attribute_9>AAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{8}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>8</attribute_13>
+		<attribute_14>GB-SC6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003VD</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>JE</attribute_1>
+		<attribute_2>JERSEY</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>IBAN</attribute_4>
+		<attribute_7>GB92 MIDL 4002 5031 2190 65</attribute_7>
+		<attribute_8>GB92MIDL40025031219065</attribute_8>
+		<attribute_9>CCKKBBBBRRRRRRAAAAAAAA</attribute_9>
+		<attribute_10>GB[0-9]{2}[A-Z]{4}[0-9]{6}[0-9]{8}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,BANK_CODE,BRANCH_CODE,ACCOUNT</attribute_11>
+		<attribute_12>22</attribute_12>
+		<attribute_13>22</attribute_13>
+		<attribute_14>GB-IBAN10</attribute_14>
+		<attribute_15>Mandatory</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10)</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003VP</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>JP</attribute_1>
+		<attribute_2>JAPAN</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>口座番号</attribute_5>
+		<attribute_7>0619100027100054351</attribute_7>
+		<attribute_8>0619100027100054351</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{5,19}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>5</attribute_12>
+		<attribute_13>19</attribute_13>
+		<attribute_14>JP-ZGN7</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003YZ</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>KE</attribute_1>
+		<attribute_2>KENYA</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>Nambari ya akaunti</attribute_5>
+		<attribute_7>001 101 502 283 0701</attribute_7>
+		<attribute_8>0011015022830701</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{6,16}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>16</attribute_13>
+		<attribute_14>KE-EAC5</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000003Z4</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>KE</attribute_1>
+		<attribute_2>KENYA</attribute_2>
+		<attribute_3>central bank</attribute_3>
+		<attribute_4>Central Bank of Kenya</attribute_4>
+		<attribute_5>Nambari ya akaunti</attribute_5>
+		<attribute_7>1000004266</attribute_7>
+		<attribute_8>1000004266</attribute_8>
+		<attribute_9>AAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{10}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>10</attribute_12>
+		<attribute_13>10</attribute_13>
+		<attribute_14>KE-EAC5</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+		<attribute_17>CBKEKE</attribute_17>
+		<attribute_18>09</attribute_18>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000044M</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>LS</attribute_1>
+		<attribute_2>LESOTHO</attribute_2>
+		<attribute_3>central bank</attribute_3>
+		<attribute_4>Central Bank of Lesotho</attribute_4>
+		<attribute_7>100008-USD-9405-06</attribute_7>
+		<attribute_8>100008USD940506</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{6}[A-Z]{3}[0-9]{6}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>15</attribute_12>
+		<attribute_13>15</attribute_13>
+		<attribute_14>LS-NCC6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+		<attribute_17>CBLELS</attribute_17>
+		<attribute_18>586</attribute_18>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000044O</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>LS</attribute_1>
+		<attribute_2>LESOTHO</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_7>100008-USD-9405-06</attribute_7>
+		<attribute_8>100008USD940506</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[A-Z0-9]{11,15}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>11</attribute_12>
+		<attribute_13>15</attribute_13>
+		<attribute_14>LS-NCC6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000047G</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>MO</attribute_1>
+		<attribute_2>MACAO</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_7>0108000100000004371</attribute_7>
+		<attribute_8>0108000100000004371</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{8,19}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>19</attribute_13>
+		<attribute_14>MO-AMCM3</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000048F</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>MU</attribute_1>
+		<attribute_2>MAURITIUS</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>IBAN</attribute_4>
+		<attribute_7>MU52 MCBL 0901 0000 0020 4792 000M UR</attribute_7>
+		<attribute_8>MU52MCBL0901000000204792000MUR</attribute_8>
+		<attribute_9>CCKKBBBBBBRRAAAAAAAAAAAAOOOYYY</attribute_9>
+		<attribute_10>MU[0-9]{2}[A-Z0-9]{6}[0-9]{2}[A-Z0-9]{12}[0-9]{3}[A-Z]{3}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,BANK_CODE,BRANCH_CODE,ACCOUNT,OTHER_CODE,CURRENCY_CODE</attribute_11>
+		<attribute_12>30</attribute_12>
+		<attribute_13>30</attribute_13>
+		<attribute_14>MU-IBAN8</attribute_14>
+		<attribute_15>Optional</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10)</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000048O</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>MW</attribute_1>
+		<attribute_2>MALAWI</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_7>5415000000059</attribute_7>
+		<attribute_8>5415000000059</attribute_8>
+		<attribute_9>AAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{8,13}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>13</attribute_13>
+		<attribute_14>MW-SC6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004A8</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>MZ</attribute_1>
+		<attribute_2>MOZAMBIQUE</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>non-ISO IBAN</attribute_4>
+		<attribute_7>MZ59 0003 0104 0157 4011 0186 0</attribute_7>
+		<attribute_8>MZ59000301040157401101860</attribute_8>
+		<attribute_9>CCKKOOBBAAAAAAAAAAAAAAAKK</attribute_9>
+		<attribute_10>MZ[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{15}[0-9]{2}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,OTHER_CODE,BANK_CODE,ACCOUNT,CHECKSUM</attribute_11>
+		<attribute_12>25</attribute_12>
+		<attribute_13>25</attribute_13>
+		<attribute_14>MZ-NCC2</attribute_14>
+		<attribute_15>Optional</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10)</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004A9</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>MZ</attribute_1>
+		<attribute_2>MOZAMBIQUE</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_7>478952013625489653201</attribute_7>
+		<attribute_8>478952013625489653201</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{8,21}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>21</attribute_13>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004AC</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>MZ</attribute_1>
+		<attribute_2>MOZAMBIQUE</attribute_2>
+		<attribute_3>central bank</attribute_3>
+		<attribute_4>Banco de Mocambique</attribute_4>
+		<attribute_7>02334519015</attribute_7>
+		<attribute_8>02334519015</attribute_8>
+		<attribute_9>AAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{11}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>11</attribute_12>
+		<attribute_13>11</attribute_13>
+		<attribute_15>Unknown</attribute_15>
+		<attribute_17>BMOCMZ</attribute_17>
+		<attribute_18>00</attribute_18>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004AR</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>NA</attribute_1>
+		<attribute_2>NAMIBIA</attribute_2>
+		<attribute_3>central bank</attribute_3>
+		<attribute_4>Bank of Namibia</attribute_4>
+		<attribute_7>165003</attribute_7>
+		<attribute_8>165003</attribute_8>
+		<attribute_9>AAAAAA</attribute_9>
+		<attribute_10>[0-9]{6}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_14>NA-NCC6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+		<attribute_17>CBKNNA</attribute_17>
+		<attribute_18>980172</attribute_18>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004AT</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>NA</attribute_1>
+		<attribute_2>NAMIBIA</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_7>62251399062</attribute_7>
+		<attribute_8>62251399062</attribute_8>
+		<attribute_9>AAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{6,11}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>11</attribute_13>
+		<attribute_14>NA-NCC6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004B6</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>NG</attribute_1>
+		<attribute_2>NIGERIA</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_7>0001600114023729</attribute_7>
+		<attribute_8>0001600114023729</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{10,16}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>10</attribute_12>
+		<attribute_13>16</attribute_13>
+		<attribute_14>NG-NCC9</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004BW</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>NL</attribute_1>
+		<attribute_2>NETHERLANDS</attribute_2>
+		<attribute_3>national</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>Rekeningnummer</attribute_5>
+		<attribute_7>0705005100</attribute_7>
+		<attribute_8>0705005100</attribute_8>
+		<attribute_9>AAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{10}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>10</attribute_12>
+		<attribute_13>10</attribute_13>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004BX</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>NL</attribute_1>
+		<attribute_2>NETHERLANDS</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>IBAN</attribute_4>
+		<attribute_7>NL56 INGB 0705 0051 00</attribute_7>
+		<attribute_8>NL56INGB0705005100</attribute_8>
+		<attribute_9>CCKKBBBBAAAAAAAAAA</attribute_9>
+		<attribute_10>NL[0-9]{2}[A-Z]{4}[0-9]{10}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,BANK_CODE,ACCOUNT</attribute_11>
+		<attribute_12>18</attribute_12>
+		<attribute_13>18</attribute_13>
+		<attribute_14>NL-IBAN4</attribute_14>
+		<attribute_15>Mandatory</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10)</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004CU</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>NZ</attribute_1>
+		<attribute_2>NEW ZEALAND</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>Account number</attribute_5>
+		<attribute_7>0202900334411000</attribute_7>
+		<attribute_8>0202900334411000</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9A-Z]{11,16}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>11</attribute_12>
+		<attribute_13>16</attribute_13>
+		<attribute_14>NZ-NCC6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004HB</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>PT</attribute_1>
+		<attribute_2>PORTUGAL</attribute_2>
+		<attribute_3>national</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>Número da conta (NIB)</attribute_5>
+		<attribute_7>003300004528369194605</attribute_7>
+		<attribute_8>003300004528369194605</attribute_8>
+		<attribute_9>BBBBRRRRAAAAAAAAAAAKK</attribute_9>
+		<attribute_10>[0-9]{4}[0-9]{4}[0-9]{11}[0-9]{2}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE,ACCOUNT,CHECKSUM</attribute_11>
+		<attribute_12>21</attribute_12>
+		<attribute_13>21</attribute_13>
+		<attribute_14>PT-NCC8</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10)</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004HC</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>PT</attribute_1>
+		<attribute_2>PORTUGAL</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>IBAN</attribute_4>
+		<attribute_7>PT50 0033 0000 4528 3691 9460 5</attribute_7>
+		<attribute_8>PT50003300004528369194605</attribute_8>
+		<attribute_9>CCKKBBBBRRRRAAAAAAAAAAAKK</attribute_9>
+		<attribute_10>PT[0-9]{2}[0-9]{4}[0-9]{4}[0-9]{11}[0-9]{2}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,BANK_CODE,BRANCH_CODE,ACCOUNT,CHECKSUM</attribute_11>
+		<attribute_12>25</attribute_12>
+		<attribute_13>25</attribute_13>
+		<attribute_14>PT-IBAN4</attribute_14>
+		<attribute_15>Mandatory</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10)CHECKSUM2:ISO/IEC 7064 (MOD97-10)</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004JI</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>SE</attribute_1>
+		<attribute_2>SWEDEN</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>IBAN</attribute_4>
+		<attribute_7>SE58 9500 0099 6026 0036 5171</attribute_7>
+		<attribute_8>SE5895000099602600365171</attribute_8>
+		<attribute_9>CCKKBBBAAAAAAAAAAAAAAAAK</attribute_9>
+		<attribute_10>SE[0-9]{2}[0-9]{3}[0-9]{16}[0-9]{1}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,BANK_CODE,ACCOUNT,CHECKSUM</attribute_11>
+		<attribute_12>24</attribute_12>
+		<attribute_13>24</attribute_13>
+		<attribute_14>SE-IBAN3</attribute_14>
+		<attribute_15>Mandatory</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10). CHECKSUM2: Modulus 10 or 11 is used, depending on bank</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004JJ</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>SE</attribute_1>
+		<attribute_2>SWEDEN</attribute_2>
+		<attribute_3>national</attribute_3>
+		<attribute_4>Type 1</attribute_4>
+		<attribute_5>Kontonummer</attribute_5>
+		<attribute_7>5385-1075161</attribute_7>
+		<attribute_8>53851075161</attribute_8>
+		<attribute_9>BBBBAAAAAAK</attribute_9>
+		<attribute_10>[0-9]{4}-{0,1}[0-9]{6}[0-9]{1}</attribute_10>
+		<attribute_11>BANK_CODE,ACCOUNT,CHECKSUM</attribute_11>
+		<attribute_12>11</attribute_12>
+		<attribute_13>11</attribute_13>
+		<attribute_14>SE-CN4</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+		<attribute_16>CHECKSUM: Modulus 11 is used, weighted factors 1, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1.</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004JK</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>SE</attribute_1>
+		<attribute_2>SWEDEN</attribute_2>
+		<attribute_3>national</attribute_3>
+		<attribute_4>Type 2</attribute_4>
+		<attribute_5>Kontonummer</attribute_5>
+		<attribute_7>009139922976</attribute_7>
+		<attribute_8>009139922976</attribute_8>
+		<attribute_9>AAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{12}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>12</attribute_12>
+		<attribute_13>12</attribute_13>
+		<attribute_14>SE-CN4</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004JQ</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>SE</attribute_1>
+		<attribute_2>SWEDEN</attribute_2>
+		<attribute_3>group</attribute_3>
+		<attribute_4>BankGiro/PlusGiro</attribute_4>
+		<attribute_5>Kontonummer</attribute_5>
+		<attribute_7>41585027</attribute_7>
+		<attribute_8>41585027</attribute_8>
+		<attribute_9>AAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{2,8}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>2</attribute_12>
+		<attribute_13>8</attribute_13>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004JX</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>SG</attribute_1>
+		<attribute_2>SINGAPORE</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>帐号</attribute_5>
+		<attribute_7>01990000049314700000R</attribute_7>
+		<attribute_8>01990000049314700000R</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[A-Z0-9]{6,21}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>21</attribute_13>
+		<attribute_14>SG-NCC7</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+		<attribute_16>Standard format used but this does vary between institutions</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004MG</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>SZ</attribute_1>
+		<attribute_2>ESWATINI</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_7>9110002365661</attribute_7>
+		<attribute_8>9110002365661</attribute_8>
+		<attribute_9>AAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{11,13}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>11</attribute_12>
+		<attribute_13>13</attribute_13>
+		<attribute_14>SZ-NCC6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004NQ</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>TR</attribute_1>
+		<attribute_2>TURKIYE</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>Hesap numarası</attribute_5>
+		<attribute_7>TR69 0005 9000 0354 6454 7464 64</attribute_7>
+		<attribute_8>TR690005900003546454746464</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[A-Z0-9]{8,26}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>26</attribute_13>
+		<attribute_14>TR-BK9</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004NR</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>TR</attribute_1>
+		<attribute_2>TURKIYE</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>IBAN</attribute_4>
+		<attribute_7>TR48 0003 2000 0000 0018 9481 04</attribute_7>
+		<attribute_8>TR480003200000000018948104</attribute_8>
+		<attribute_9>CCKKBBBBBKAAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>TR[0-9]{2}[0-9]{5}[0-9]{1}[A-Z0-9]{16}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,BANK_CODE,CHECKSUM,ACCOUNT</attribute_11>
+		<attribute_12>26</attribute_12>
+		<attribute_13>26</attribute_13>
+		<attribute_14>TR-IBAN5</attribute_14>
+		<attribute_15>Mandatory</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10), CHECKSUM2: Algorithm Unknown</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004OJ</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>TW</attribute_1>
+		<attribute_2>TAIWAN</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>帐号</attribute_5>
+		<attribute_7>3623USDSVA512123456</attribute_7>
+		<attribute_8>3623USDSVA512123456</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[A-Z0-9]{8,19}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>19</attribute_13>
+		<attribute_14>TW-NCC7</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004PQ</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>TZ</attribute_1>
+		<attribute_2>TANZANIA, UNITED REPUBLIC OF</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_7>003003005283350001</attribute_7>
+		<attribute_8>003003005283350001</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{7,18}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>7</attribute_12>
+		<attribute_13>18</attribute_13>
+		<attribute_14>TZ-NCC6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004QH</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>TZ</attribute_1>
+		<attribute_2>TANZANIA, UNITED REPUBLIC OF</attribute_2>
+		<attribute_3>central bank</attribute_3>
+		<attribute_4>Bank of Tanzania</attribute_4>
+		<attribute_7>9921167201</attribute_7>
+		<attribute_8>9921167201</attribute_8>
+		<attribute_9>AAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{10}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>10</attribute_12>
+		<attribute_13>10</attribute_13>
+		<attribute_14>TZ-NCC6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+		<attribute_17>TANZTZ</attribute_17>
+		<attribute_18>001</attribute_18>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004QP</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>UA</attribute_1>
+		<attribute_2>UKRAINE</attribute_2>
+		<attribute_3>national</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>номер рахунку</attribute_5>
+		<attribute_7>26003053821700</attribute_7>
+		<attribute_8>26003053821700</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[A-Z0-9]{14}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>14</attribute_12>
+		<attribute_13>14</attribute_13>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004QQ</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>UA</attribute_1>
+		<attribute_2>UKRAINE</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>IBAN</attribute_4>
+		<attribute_7>UA17 3253 2100 0002 6003 0538 2170 0</attribute_7>
+		<attribute_8>UA173253210000026003053821700</attribute_8>
+		<attribute_9>CCKKBBBBBBAAAAAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>UA[0-9]{2}[0-9]{6}[A-Z0-9]{19}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,BANK_CODE,ACCOUNT</attribute_11>
+		<attribute_12>29</attribute_12>
+		<attribute_13>29</attribute_13>
+		<attribute_14>UA-MFO6</attribute_14>
+		<attribute_15>Mandatory</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10)</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004QR</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>UG</attribute_1>
+		<attribute_2>UGANDA</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_7>003300328400010</attribute_7>
+		<attribute_8>003300328400010</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{10,15}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>10</attribute_12>
+		<attribute_13>15</attribute_13>
+		<attribute_14>UG-SC6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004RB</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>UG</attribute_1>
+		<attribute_2>UGANDA</attribute_2>
+		<attribute_3>central bank</attribute_3>
+		<attribute_4>Bank of Uganda</attribute_4>
+		<attribute_7>003300328400010</attribute_7>
+		<attribute_8>003300328400010</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{15}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>15</attribute_12>
+		<attribute_13>15</attribute_13>
+		<attribute_14>UG-SC6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+		<attribute_17>UGBAUG</attribute_17>
+		<attribute_18>99</attribute_18>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004RL</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>US</attribute_1>
+		<attribute_2>UNITED STATES OF AMERICA</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_5>Account number</attribute_5>
+		<attribute_7>30806988100215886453015978854133029</attribute_7>
+		<attribute_8>30806988100215886453015978854133029</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[A-Z0-9]{1,35}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>1</attribute_12>
+		<attribute_13>35</attribute_13>
+		<attribute_14>US-ABA9</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000004SY</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>US</attribute_1>
+		<attribute_2>UNITED STATES OF AMERICA</attribute_2>
+		<attribute_3>central bank</attribute_3>
+		<attribute_4>Federal Reserve Bank of New York</attribute_4>
+		<attribute_5>Account number</attribute_5>
+		<attribute_7>021083190</attribute_7>
+		<attribute_8>021083190</attribute_8>
+		<attribute_9>AAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{9}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>9</attribute_12>
+		<attribute_13>9</attribute_13>
+		<attribute_14>US-ABA9</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+		<attribute_17>FRNYUS</attribute_17>
+		<attribute_18>0210</attribute_18>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000052F</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>ZA</attribute_1>
+		<attribute_2>SOUTH AFRICA</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_7>68800030009200100</attribute_7>
+		<attribute_8>68800030009200100</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{9,17}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>9</attribute_12>
+		<attribute_13>17</attribute_13>
+		<attribute_14>ZA-NCC6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO0000000535</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>ZM</attribute_1>
+		<attribute_2>ZAMBIA</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_7>27-1510279311032</attribute_7>
+		<attribute_8>271510279311032</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{9,15}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>9</attribute_12>
+		<attribute_13>15</attribute_13>
+		<attribute_14>ZM-SC6</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000053N</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>ZW</attribute_1>
+		<attribute_2>ZIMBABWE</attribute_2>
+		<attribute_3>national derived</attribute_3>
+		<attribute_4>account number</attribute_4>
+		<attribute_7>10723000001000</attribute_7>
+		<attribute_8>10723000001000</attribute_8>
+		<attribute_9>AAAAAAAAAAAAAA</attribute_9>
+		<attribute_10>[0-9]{7,14}</attribute_10>
+		<attribute_11>ACCOUNT</attribute_11>
+		<attribute_12>7</attribute_12>
+		<attribute_13>14</attribute_13>
+		<attribute_14>ZW-SC5</attribute_14>
+		<attribute_15>Unknown</attribute_15>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005GS</record_key>
+		<record_structure>ACCOUNT FORMAT STANDARD TYPE</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>IM</attribute_1>
+		<attribute_2>ISLE OF MAN</attribute_2>
+		<attribute_3>standard</attribute_3>
+		<attribute_4>IBAN</attribute_4>
+		<attribute_7>GB92 MIDL 4002 5031 2190 65</attribute_7>
+		<attribute_8>GB92MIDL40025031219065</attribute_8>
+		<attribute_9>CCKKBBBBRRRRRRAAAAAAAA</attribute_9>
+		<attribute_10>GB[0-9]{2}[A-Z]{4}[0-9]{6}[0-9]{8}</attribute_10>
+		<attribute_11>COUNTRY_CODE,CHECKSUM,BANK_CODE,BRANCH_CODE,ACCOUNT</attribute_11>
+		<attribute_12>22</attribute_12>
+		<attribute_13>22</attribute_13>
+		<attribute_14>GB-IBAN10</attribute_14>
+		<attribute_15>Mandatory</attribute_15>
+		<attribute_16>CHECKSUM:ISO/IEC 7064 (MOD97-10)</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005MP</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>H</record_content_type>
+		<record_status>RECORD STATUS</record_status>
+		<start_date>START DATE</start_date>
+		<stop_date>STOP DATE</stop_date>
+		<attribute_1>IBAN COUNTRY CODE</attribute_1>
+		<attribute_2>IBAN COUNTRY NAME</attribute_2>
+		<attribute_3>ACCOUNT FORMAT ID</attribute_3>
+		<attribute_4>IBAN COUNTRY CODE POSITION</attribute_4>
+		<attribute_5>IBAN COUNTRY CODE LENGTH</attribute_5>
+		<attribute_6>IBAN CHECK DIGITS POSITION</attribute_6>
+		<attribute_7>IBAN CHECK DIGITS LENGTH</attribute_7>
+		<attribute_8>BANK IDENTIFIER POSITION</attribute_8>
+		<attribute_9>BANK IDENTIFIER LENGTH</attribute_9>
+		<attribute_10>BRANCH IDENTIFIER POSITION</attribute_10>
+		<attribute_11>BRANCH IDENTIFIER LENGTH</attribute_11>
+		<attribute_12>IBAN ACCOUNT NUMBER POSITION</attribute_12>
+		<attribute_13>IBAN ACCOUNT NUMBER LENGTH</attribute_13>
+		<attribute_14>IBAN TOTAL LENGTH</attribute_14>
+		<attribute_15>IBAN NATIONAL ID POSITION</attribute_15>
+		<attribute_16>IBAN NATIONAL ID LENGTH</attribute_16>
+		<attribute_17>IBAN NATIONAL ID TYPE</attribute_17>
+		<attribute_18>DOMESTIC ACCOUNT NUMBER POSITION</attribute_18>
+		<attribute_19>DOMESTIC ACCOUNT NUMBER LENGTH</attribute_19>
+		<attribute_20>DOMESTIC ACCOUNT FORMAT ID</attribute_20>
+		<attribute_21>SEPA</attribute_21>
+		<attribute_22>IBAN PRESENCE</attribute_22>
+		<attribute_23>REUSED BY</attribute_23>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005JR</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>AO</attribute_1>
+		<attribute_2>ANGOLA</attribute_2>
+		<attribute_3>ANF0008</attribute_3>
+		<attribute_4>1</attribute_4>
+		<attribute_5>2</attribute_5>
+		<attribute_6>3</attribute_6>
+		<attribute_7>2</attribute_7>
+		<attribute_8>5</attribute_8>
+		<attribute_9>4</attribute_9>
+		<attribute_10>9</attribute_10>
+		<attribute_11>4</attribute_11>
+		<attribute_12>13</attribute_12>
+		<attribute_13>13</attribute_13>
+		<attribute_14>25</attribute_14>
+		<attribute_15>5</attribute_15>
+		<attribute_16>8</attribute_16>
+		<attribute_17>AO-NCC8</attribute_17>
+		<attribute_18>5</attribute_18>
+		<attribute_19>21</attribute_19>
+		<attribute_20>ANF0007</attribute_20>
+		<attribute_21>N</attribute_21>
+		<attribute_22>Optional</attribute_22>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005JV</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>BE</attribute_1>
+		<attribute_2>BELGIUM</attribute_2>
+		<attribute_3>ANF000J</attribute_3>
+		<attribute_4>1</attribute_4>
+		<attribute_5>2</attribute_5>
+		<attribute_6>3</attribute_6>
+		<attribute_7>2</attribute_7>
+		<attribute_8>5</attribute_8>
+		<attribute_9>3</attribute_9>
+		<attribute_11>0</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>9</attribute_13>
+		<attribute_14>16</attribute_14>
+		<attribute_15>5</attribute_15>
+		<attribute_16>3</attribute_16>
+		<attribute_17>BE-BC3</attribute_17>
+		<attribute_18>5</attribute_18>
+		<attribute_19>12</attribute_19>
+		<attribute_20>ANF000I</attribute_20>
+		<attribute_21>Y</attribute_21>
+		<attribute_22>Mandatory</attribute_22>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005K1</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>BR</attribute_1>
+		<attribute_2>BRAZIL</attribute_2>
+		<attribute_3>ANF000M</attribute_3>
+		<attribute_4>1</attribute_4>
+		<attribute_5>2</attribute_5>
+		<attribute_6>3</attribute_6>
+		<attribute_7>2</attribute_7>
+		<attribute_8>5</attribute_8>
+		<attribute_9>8</attribute_9>
+		<attribute_10>13</attribute_10>
+		<attribute_11>5</attribute_11>
+		<attribute_12>18</attribute_12>
+		<attribute_13>12</attribute_13>
+		<attribute_14>29</attribute_14>
+		<attribute_15>5</attribute_15>
+		<attribute_16>8</attribute_16>
+		<attribute_17>BR-CB8</attribute_17>
+		<attribute_18>18</attribute_18>
+		<attribute_19>10</attribute_19>
+		<attribute_20>ANF000L</attribute_20>
+		<attribute_21>N</attribute_21>
+		<attribute_22>Optional</attribute_22>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005K6</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>CI</attribute_1>
+		<attribute_2>COTE D'IVOIRE</attribute_2>
+		<attribute_3>ANF00CN</attribute_3>
+		<attribute_4>1</attribute_4>
+		<attribute_5>2</attribute_5>
+		<attribute_6>3</attribute_6>
+		<attribute_7>2</attribute_7>
+		<attribute_8>5</attribute_8>
+		<attribute_9>5</attribute_9>
+		<attribute_11>0</attribute_11>
+		<attribute_12>10</attribute_12>
+		<attribute_13>19</attribute_13>
+		<attribute_14>28</attribute_14>
+		<attribute_15>5</attribute_15>
+		<attribute_16>5</attribute_16>
+		<attribute_17>CI-UEMOA5</attribute_17>
+		<attribute_19>0</attribute_19>
+		<attribute_21>N</attribute_21>
+		<attribute_22>Optional</attribute_22>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005KC</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>DE</attribute_1>
+		<attribute_2>GERMANY</attribute_2>
+		<attribute_3>ANF001M</attribute_3>
+		<attribute_4>1</attribute_4>
+		<attribute_5>2</attribute_5>
+		<attribute_6>3</attribute_6>
+		<attribute_7>2</attribute_7>
+		<attribute_8>5</attribute_8>
+		<attribute_9>8</attribute_9>
+		<attribute_11>0</attribute_11>
+		<attribute_12>13</attribute_12>
+		<attribute_13>10</attribute_13>
+		<attribute_14>22</attribute_14>
+		<attribute_15>5</attribute_15>
+		<attribute_16>8</attribute_16>
+		<attribute_17>DE-BLZ8</attribute_17>
+		<attribute_19>0</attribute_19>
+		<attribute_21>Y</attribute_21>
+		<attribute_22>Mandatory</attribute_22>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005KE</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>DK</attribute_1>
+		<attribute_2>DENMARK</attribute_2>
+		<attribute_3>ANF0013</attribute_3>
+		<attribute_4>1</attribute_4>
+		<attribute_5>2</attribute_5>
+		<attribute_6>3</attribute_6>
+		<attribute_7>2</attribute_7>
+		<attribute_8>5</attribute_8>
+		<attribute_9>4</attribute_9>
+		<attribute_11>0</attribute_11>
+		<attribute_12>9</attribute_12>
+		<attribute_13>10</attribute_13>
+		<attribute_14>18</attribute_14>
+		<attribute_15>5</attribute_15>
+		<attribute_16>4</attribute_16>
+		<attribute_17>DK-RN4</attribute_17>
+		<attribute_19>0</attribute_19>
+		<attribute_21>Y</attribute_21>
+		<attribute_22>Mandatory</attribute_22>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005KJ</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>ES</attribute_1>
+		<attribute_2>SPAIN</attribute_2>
+		<attribute_3>ANF0046</attribute_3>
+		<attribute_4>1</attribute_4>
+		<attribute_5>2</attribute_5>
+		<attribute_6>3</attribute_6>
+		<attribute_7>2</attribute_7>
+		<attribute_8>5</attribute_8>
+		<attribute_9>4</attribute_9>
+		<attribute_10>9</attribute_10>
+		<attribute_11>4</attribute_11>
+		<attribute_12>13</attribute_12>
+		<attribute_13>12</attribute_13>
+		<attribute_14>24</attribute_14>
+		<attribute_15>5</attribute_15>
+		<attribute_16>8</attribute_16>
+		<attribute_17>ES-NCC8</attribute_17>
+		<attribute_18>5</attribute_18>
+		<attribute_19>20</attribute_19>
+		<attribute_20>ANF0045</attribute_20>
+		<attribute_21>Y</attribute_21>
+		<attribute_22>Mandatory</attribute_22>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005KK</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>FI</attribute_1>
+		<attribute_2>FINLAND</attribute_2>
+		<attribute_3>ANF001D</attribute_3>
+		<attribute_4>1</attribute_4>
+		<attribute_5>2</attribute_5>
+		<attribute_6>3</attribute_6>
+		<attribute_7>2</attribute_7>
+		<attribute_8>5</attribute_8>
+		<attribute_9>3</attribute_9>
+		<attribute_11>0</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>11</attribute_13>
+		<attribute_14>18</attribute_14>
+		<attribute_15>5</attribute_15>
+		<attribute_16>3</attribute_16>
+		<attribute_17>FI-R3</attribute_17>
+		<attribute_19>0</attribute_19>
+		<attribute_21>Y</attribute_21>
+		<attribute_22>Mandatory</attribute_22>
+		<attribute_23>AX</attribute_23>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005KN</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>FR</attribute_1>
+		<attribute_2>FRANCE</attribute_2>
+		<attribute_3>ANF001F</attribute_3>
+		<attribute_4>1</attribute_4>
+		<attribute_5>2</attribute_5>
+		<attribute_6>3</attribute_6>
+		<attribute_7>2</attribute_7>
+		<attribute_8>5</attribute_8>
+		<attribute_9>5</attribute_9>
+		<attribute_10>10</attribute_10>
+		<attribute_11>5</attribute_11>
+		<attribute_12>15</attribute_12>
+		<attribute_13>13</attribute_13>
+		<attribute_14>27</attribute_14>
+		<attribute_15>5</attribute_15>
+		<attribute_16>10</attribute_16>
+		<attribute_17>FR-CBG10</attribute_17>
+		<attribute_18>5</attribute_18>
+		<attribute_19>23</attribute_19>
+		<attribute_20>ANF001E</attribute_20>
+		<attribute_21>Y</attribute_21>
+		<attribute_22>Mandatory</attribute_22>
+		<attribute_23>WF,RE,PM,PF,NC,MQ,GP,GF,YT,TF,BL,MF</attribute_23>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005KP</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>GB</attribute_1>
+		<attribute_2>UNITED KINGDOM</attribute_2>
+		<attribute_3>ANF004O</attribute_3>
+		<attribute_4>1</attribute_4>
+		<attribute_5>2</attribute_5>
+		<attribute_6>3</attribute_6>
+		<attribute_7>2</attribute_7>
+		<attribute_8>5</attribute_8>
+		<attribute_9>4</attribute_9>
+		<attribute_10>9</attribute_10>
+		<attribute_11>6</attribute_11>
+		<attribute_12>15</attribute_12>
+		<attribute_13>8</attribute_13>
+		<attribute_14>22</attribute_14>
+		<attribute_15>5</attribute_15>
+		<attribute_16>10</attribute_16>
+		<attribute_17>GB-IBAN10</attribute_17>
+		<attribute_18>15</attribute_18>
+		<attribute_19>8</attribute_19>
+		<attribute_20>ANF004N</attribute_20>
+		<attribute_21>Y</attribute_21>
+		<attribute_22>Mandatory</attribute_22>
+		<attribute_23>JE,IM,GG</attribute_23>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005KZ</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>IE</attribute_1>
+		<attribute_2>IRELAND</attribute_2>
+		<attribute_3>ANF0025</attribute_3>
+		<attribute_4>1</attribute_4>
+		<attribute_5>2</attribute_5>
+		<attribute_6>3</attribute_6>
+		<attribute_7>2</attribute_7>
+		<attribute_8>5</attribute_8>
+		<attribute_9>4</attribute_9>
+		<attribute_10>9</attribute_10>
+		<attribute_11>6</attribute_11>
+		<attribute_12>15</attribute_12>
+		<attribute_13>8</attribute_13>
+		<attribute_14>22</attribute_14>
+		<attribute_15>5</attribute_15>
+		<attribute_16>10</attribute_16>
+		<attribute_17>IE-ISC10</attribute_17>
+		<attribute_18>15</attribute_18>
+		<attribute_19>8</attribute_19>
+		<attribute_20>ANF0024</attribute_20>
+		<attribute_21>Y</attribute_21>
+		<attribute_22>Mandatory</attribute_22>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005L3</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>IT</attribute_1>
+		<attribute_2>ITALY</attribute_2>
+		<attribute_3>ANF0028</attribute_3>
+		<attribute_4>1</attribute_4>
+		<attribute_5>2</attribute_5>
+		<attribute_6>3</attribute_6>
+		<attribute_7>2</attribute_7>
+		<attribute_8>6</attribute_8>
+		<attribute_9>5</attribute_9>
+		<attribute_10>11</attribute_10>
+		<attribute_11>5</attribute_11>
+		<attribute_12>16</attribute_12>
+		<attribute_13>12</attribute_13>
+		<attribute_14>27</attribute_14>
+		<attribute_15>6</attribute_15>
+		<attribute_16>10</attribute_16>
+		<attribute_17>IT-ABICAB10</attribute_17>
+		<attribute_19>0</attribute_19>
+		<attribute_21>Y</attribute_21>
+		<attribute_22>Mandatory</attribute_22>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005LP</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>MU</attribute_1>
+		<attribute_2>MAURITIUS</attribute_2>
+		<attribute_3>ANF002U</attribute_3>
+		<attribute_4>1</attribute_4>
+		<attribute_5>2</attribute_5>
+		<attribute_6>3</attribute_6>
+		<attribute_7>2</attribute_7>
+		<attribute_8>5</attribute_8>
+		<attribute_9>6</attribute_9>
+		<attribute_10>11</attribute_10>
+		<attribute_11>2</attribute_11>
+		<attribute_12>13</attribute_12>
+		<attribute_13>18</attribute_13>
+		<attribute_14>30</attribute_14>
+		<attribute_15>5</attribute_15>
+		<attribute_16>8</attribute_16>
+		<attribute_17>MU-IBAN8</attribute_17>
+		<attribute_19>0</attribute_19>
+		<attribute_21>N</attribute_21>
+		<attribute_22>Optional</attribute_22>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005LQ</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>MZ</attribute_1>
+		<attribute_2>MOZAMBIQUE</attribute_2>
+		<attribute_3>ANF00CW</attribute_3>
+		<attribute_4>1</attribute_4>
+		<attribute_5>2</attribute_5>
+		<attribute_6>3</attribute_6>
+		<attribute_7>2</attribute_7>
+		<attribute_8>7</attribute_8>
+		<attribute_9>2</attribute_9>
+		<attribute_11>0</attribute_11>
+		<attribute_12>9</attribute_12>
+		<attribute_13>17</attribute_13>
+		<attribute_14>25</attribute_14>
+		<attribute_15>7</attribute_15>
+		<attribute_16>2</attribute_16>
+		<attribute_17>MZ-NCC2</attribute_17>
+		<attribute_19>0</attribute_19>
+		<attribute_21>N</attribute_21>
+		<attribute_22>Optional</attribute_22>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005LT</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>NL</attribute_1>
+		<attribute_2>NETHERLANDS</attribute_2>
+		<attribute_3>ANF0034</attribute_3>
+		<attribute_4>1</attribute_4>
+		<attribute_5>2</attribute_5>
+		<attribute_6>3</attribute_6>
+		<attribute_7>2</attribute_7>
+		<attribute_8>5</attribute_8>
+		<attribute_9>4</attribute_9>
+		<attribute_11>0</attribute_11>
+		<attribute_12>9</attribute_12>
+		<attribute_13>10</attribute_13>
+		<attribute_14>18</attribute_14>
+		<attribute_15>5</attribute_15>
+		<attribute_16>4</attribute_16>
+		<attribute_17>NL-IBAN4</attribute_17>
+		<attribute_18>9</attribute_18>
+		<attribute_19>10</attribute_19>
+		<attribute_20>ANF0033</attribute_20>
+		<attribute_21>Y</attribute_21>
+		<attribute_22>Mandatory</attribute_22>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005LZ</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>PT</attribute_1>
+		<attribute_2>PORTUGAL</attribute_2>
+		<attribute_3>ANF003J</attribute_3>
+		<attribute_4>1</attribute_4>
+		<attribute_5>2</attribute_5>
+		<attribute_6>3</attribute_6>
+		<attribute_7>2</attribute_7>
+		<attribute_8>5</attribute_8>
+		<attribute_9>4</attribute_9>
+		<attribute_10>9</attribute_10>
+		<attribute_11>4</attribute_11>
+		<attribute_12>13</attribute_12>
+		<attribute_13>13</attribute_13>
+		<attribute_14>25</attribute_14>
+		<attribute_15>5</attribute_15>
+		<attribute_16>4</attribute_16>
+		<attribute_17>PT-IBAN4</attribute_17>
+		<attribute_18>5</attribute_18>
+		<attribute_19>21</attribute_19>
+		<attribute_20>ANF003I</attribute_20>
+		<attribute_21>Y</attribute_21>
+		<attribute_22>Mandatory</attribute_22>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005M7</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>SE</attribute_1>
+		<attribute_2>SWEDEN</attribute_2>
+		<attribute_3>ANF0048</attribute_3>
+		<attribute_4>1</attribute_4>
+		<attribute_5>2</attribute_5>
+		<attribute_6>3</attribute_6>
+		<attribute_7>2</attribute_7>
+		<attribute_8>5</attribute_8>
+		<attribute_9>3</attribute_9>
+		<attribute_11>0</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>17</attribute_13>
+		<attribute_14>24</attribute_14>
+		<attribute_15>5</attribute_15>
+		<attribute_16>3</attribute_16>
+		<attribute_17>SE-IBAN3</attribute_17>
+		<attribute_19>0</attribute_19>
+		<attribute_21>Y</attribute_21>
+		<attribute_22>Mandatory</attribute_22>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005MJ</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>TR</attribute_1>
+		<attribute_2>TURKIYE</attribute_2>
+		<attribute_3>ANF004I</attribute_3>
+		<attribute_4>1</attribute_4>
+		<attribute_5>2</attribute_5>
+		<attribute_6>3</attribute_6>
+		<attribute_7>2</attribute_7>
+		<attribute_8>5</attribute_8>
+		<attribute_9>5</attribute_9>
+		<attribute_11>0</attribute_11>
+		<attribute_12>10</attribute_12>
+		<attribute_13>17</attribute_13>
+		<attribute_14>26</attribute_14>
+		<attribute_15>5</attribute_15>
+		<attribute_16>5</attribute_16>
+		<attribute_17>TR-IBAN5</attribute_17>
+		<attribute_19>0</attribute_19>
+		<attribute_21>N</attribute_21>
+		<attribute_22>Mandatory</attribute_22>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005MK</record_key>
+		<record_structure>IBAN FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>UA</attribute_1>
+		<attribute_2>UKRAINE</attribute_2>
+		<attribute_3>ANF004K</attribute_3>
+		<attribute_4>1</attribute_4>
+		<attribute_5>2</attribute_5>
+		<attribute_6>3</attribute_6>
+		<attribute_7>2</attribute_7>
+		<attribute_8>5</attribute_8>
+		<attribute_9>6</attribute_9>
+		<attribute_11>0</attribute_11>
+		<attribute_12>11</attribute_12>
+		<attribute_13>19</attribute_13>
+		<attribute_14>29</attribute_14>
+		<attribute_15>5</attribute_15>
+		<attribute_16>6</attribute_16>
+		<attribute_17>UA-MFO6</attribute_17>
+		<attribute_18>16</attribute_18>
+		<attribute_19>14</attribute_19>
+		<attribute_20>ANF004J</attribute_20>
+		<attribute_21>N</attribute_21>
+		<attribute_22>Mandatory</attribute_22>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000025N</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>H</record_content_type>
+		<record_status>RECORD STATUS</record_status>
+		<start_date>START DATE</start_date>
+		<stop_date>STOP DATE</stop_date>
+		<attribute_1>COUNTRY CODE</attribute_1>
+		<attribute_2>COUNTRY NAME</attribute_2>
+		<attribute_3>ID TYPE</attribute_3>
+		<attribute_4>DESCRIPTION</attribute_4>
+		<attribute_5>DESCRIPTION IN LL</attribute_5>
+		<attribute_6>ACRONYM</attribute_6>
+		<attribute_7>FORMAT EXAMPLE WITH SEPARATORS</attribute_7>
+		<attribute_8>FORMAT EXAMPLE WITHOUT SEPARATORS</attribute_8>
+		<attribute_9>LETTER FORMAT</attribute_9>
+		<attribute_10>REGEX FORMAT</attribute_10>
+		<attribute_11>ELEMENT NAMES</attribute_11>
+		<attribute_12>MIN LENGTH</attribute_12>
+		<attribute_13>MAX LENGTH</attribute_13>
+		<attribute_14>ID USAGE</attribute_14>
+		<attribute_15>NOTES</attribute_15>
+		<attribute_16>ISO CLC TYPE</attribute_16>
+		<attribute_17>NATIONAL ID TYPE</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000001XV</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>AO</attribute_1>
+		<attribute_2>ANGOLA</attribute_2>
+		<attribute_3>AO-NCC8</attribute_3>
+		<attribute_4>Angola's national clearing code and IBAN ID</attribute_4>
+		<attribute_5>Bank Branch Code</attribute_5>
+		<attribute_7>04060000</attribute_7>
+		<attribute_8>04060000</attribute_8>
+		<attribute_9>BBBBRRRR</attribute_9>
+		<attribute_10>[0-9]{4}[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>8</attribute_13>
+		<attribute_17>BNA</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000001Y0</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>AU</attribute_1>
+		<attribute_2>AUSTRALIA</attribute_2>
+		<attribute_3>AU-BSB6</attribute_3>
+		<attribute_4>Australia's bank/state/branch (BSB) code</attribute_4>
+		<attribute_5>Bank State Branch</attribute_5>
+		<attribute_6>BSB</attribute_6>
+		<attribute_7>939200</attribute_7>
+		<attribute_8>939200</attribute_8>
+		<attribute_9>BBBRRR</attribute_9>
+		<attribute_10>[0-9]{3}[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_14>ACH,CHQ,RTGS</attribute_14>
+		<attribute_16>AUBSB</attribute_16>
+		<attribute_17>BSB</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000001Y9</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>BE</attribute_1>
+		<attribute_2>BELGIUM</attribute_2>
+		<attribute_3>BE-BC3</attribute_3>
+		<attribute_4>Belgium's code bancaire/bank code and IBAN ID</attribute_4>
+		<attribute_5>Code Bancaire,Bank/branch code</attribute_5>
+		<attribute_7>259</attribute_7>
+		<attribute_8>259</attribute_8>
+		<attribute_9>BBB</attribute_9>
+		<attribute_10>[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>3</attribute_12>
+		<attribute_13>3</attribute_13>
+		<attribute_14>ACH,RT-RPS</attribute_14>
+		<attribute_17>ABB-BVB</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000001YF</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>BW</attribute_1>
+		<attribute_2>BOTSWANA</attribute_2>
+		<attribute_3>BW-RN6</attribute_3>
+		<attribute_4>Botswana's routing number</attribute_4>
+		<attribute_5>Sort Code</attribute_5>
+		<attribute_6>SC</attribute_6>
+		<attribute_7>200667</attribute_7>
+		<attribute_8>200667</attribute_8>
+		<attribute_9>BBRROO</attribute_9>
+		<attribute_10>[0-9]{2}[0-9]{2}67</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE,OTHER_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_14>ACH,CHQ</attribute_14>
+		<attribute_17>BWBC</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000001YH</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>BR</attribute_1>
+		<attribute_2>BRAZIL</attribute_2>
+		<attribute_3>BR-CB8</attribute_3>
+		<attribute_4>Brazil's codigo bancario (used on COMPE, PIX and STR service)</attribute_4>
+		<attribute_5>Identificador do Sistema de Pagamentos Brasileiro</attribute_5>
+		<attribute_6>ISPB</attribute_6>
+		<attribute_7>29011780</attribute_7>
+		<attribute_8>29011780</attribute_8>
+		<attribute_9>BBBBBBBB</attribute_9>
+		<attribute_10>[0-9]{8}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>8</attribute_13>
+		<attribute_14>ACH,CHQ,RT-RPS,RTGS</attribute_14>
+		<attribute_16>BRISP</attribute_16>
+		<attribute_17>ISPB</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000001YN</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>CA</attribute_1>
+		<attribute_2>CANADA</attribute_2>
+		<attribute_3>CA-RN9</attribute_3>
+		<attribute_4>Canada's routing number (used on ACSS service)</attribute_4>
+		<attribute_5>Routing number</attribute_5>
+		<attribute_6>EFT</attribute_6>
+		<attribute_7>089940329</attribute_7>
+		<attribute_8>089940329</attribute_8>
+		<attribute_9>OBBBNNNNN</attribute_9>
+		<attribute_10>0[0-9]{3}[0-9]{5}</attribute_10>
+		<attribute_11>OTHER_CODE,BANK_CODE,TRANSIT_NUMBER</attribute_11>
+		<attribute_12>9</attribute_12>
+		<attribute_13>9</attribute_13>
+		<attribute_14>ACH</attribute_14>
+		<attribute_16>CACPA</attribute_16>
+		<attribute_17>CPA</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000001YR</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>CN</attribute_1>
+		<attribute_2>CHINA</attribute_2>
+		<attribute_3>CN-CNAPS12</attribute_3>
+		<attribute_4>China's CNAPS code. (For RMB payments)</attribute_4>
+		<attribute_5>China National Advanced Payment System code</attribute_5>
+		<attribute_6>CNAPS</attribute_6>
+		<attribute_7>907659000058</attribute_7>
+		<attribute_8>907659000058</attribute_8>
+		<attribute_9>BBBBBBBBBBBB</attribute_9>
+		<attribute_10>[0-9]{12}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>12</attribute_12>
+		<attribute_13>12</attribute_13>
+		<attribute_14>RTGS</attribute_14>
+		<attribute_16>CNAPS</attribute_16>
+		<attribute_17>CNAPS</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000001YW</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>CI</attribute_1>
+		<attribute_2>COTE D'IVOIRE</attribute_2>
+		<attribute_3>CI-UEMOA5</attribute_3>
+		<attribute_4>Cote D'Ivoire's national clearing code WAEMU/UEMOA area format (bank code used on UEMOA SICA service) and IBAN ID</attribute_4>
+		<attribute_5>Clearing Code</attribute_5>
+		<attribute_6>UEMOA</attribute_6>
+		<attribute_7>CI034</attribute_7>
+		<attribute_8>CI034</attribute_8>
+		<attribute_9>BBBBB</attribute_9>
+		<attribute_10>[A-Z0-9]{5}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>5</attribute_12>
+		<attribute_13>5</attribute_13>
+		<attribute_17>BCEAOCI</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000001Z0</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>DK</attribute_1>
+		<attribute_2>DENMARK</attribute_2>
+		<attribute_3>DK-RN4</attribute_3>
+		<attribute_4>Denmark's Registreringsnummer (bank registration number). (For DKK payments) and IBAN ID</attribute_4>
+		<attribute_5>Registreringsnummer</attribute_5>
+		<attribute_7>2842</attribute_7>
+		<attribute_8>2842</attribute_8>
+		<attribute_9>BBBB</attribute_9>
+		<attribute_10>[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>4</attribute_12>
+		<attribute_13>4</attribute_13>
+		<attribute_14>ACH,RT-RPS</attribute_14>
+		<attribute_17>PBS</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000001ZB</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>FI</attribute_1>
+		<attribute_2>FINLAND</attribute_2>
+		<attribute_3>FI-R3</attribute_3>
+		<attribute_4>Finland's (FFS) Rahalaitostunnus (bank code) and IBAN ID</attribute_4>
+		<attribute_5>Rahalaitostunnus</attribute_5>
+		<attribute_7>367</attribute_7>
+		<attribute_8>367</attribute_8>
+		<attribute_9>BBB</attribute_9>
+		<attribute_10>[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>3</attribute_12>
+		<attribute_13>3</attribute_13>
+		<attribute_17>FFFS</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000001ZJ</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>DE</attribute_1>
+		<attribute_2>GERMANY</attribute_2>
+		<attribute_3>DE-BLZ8</attribute_3>
+		<attribute_4>Germany's (BLZ) Bankleitzahl (bank/branch code) and IBAN ID</attribute_4>
+		<attribute_5>Bankleitzahl</attribute_5>
+		<attribute_6>BLZ</attribute_6>
+		<attribute_7>50038800</attribute_7>
+		<attribute_8>50038800</attribute_8>
+		<attribute_9>LLLOIIII</attribute_9>
+		<attribute_10>[0-9]{3}[0-9]{1}[0-9]{4}</attribute_10>
+		<attribute_11>LOCATION_CODE,OTHER_CODE,INSTITUTION_CODE</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>8</attribute_13>
+		<attribute_15>OTHER_CODE:  refers to the group of institutions</attribute_15>
+		<attribute_16>DEBLZ</attribute_16>
+		<attribute_17>BLZ</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000001ZK</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>GH</attribute_1>
+		<attribute_2>GHANA</attribute_2>
+		<attribute_3>GH-SC6</attribute_3>
+		<attribute_4>Ghana's sort code</attribute_4>
+		<attribute_5>Sort code</attribute_5>
+		<attribute_6>SC</attribute_6>
+		<attribute_7>280403</attribute_7>
+		<attribute_8>280403</attribute_8>
+		<attribute_9>BBHHRR</attribute_9>
+		<attribute_10>[0-9]{2}[0-9]{2}[0-9]{2}</attribute_10>
+		<attribute_11>BANK_CODE,AREA_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_14>ACH,CHQ,RT-RPS</attribute_14>
+		<attribute_17>GHIPSS</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000001ZZ</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>HK</attribute_1>
+		<attribute_2>HONG KONG</attribute_2>
+		<attribute_3>HK-ICC6</attribute_3>
+		<attribute_4>Hong Kong's international clearing code (bank/branch code used on RTGS, ACH and CHQ service)</attribute_4>
+		<attribute_5>Clearing Code</attribute_5>
+		<attribute_6>HKICL</attribute_6>
+		<attribute_7>278718</attribute_7>
+		<attribute_8>278718</attribute_8>
+		<attribute_9>BBBRRR</attribute_9>
+		<attribute_10>[0-9]{3}[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_14>ACH,CHQ,RT-RPS,RTGS</attribute_14>
+		<attribute_17>HKICL</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO0000000204</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>ID</attribute_1>
+		<attribute_2>INDONESIA</attribute_2>
+		<attribute_3>ID-NCC7</attribute_3>
+		<attribute_4>Indonesia's national clearing code (bank/branch code)</attribute_4>
+		<attribute_5>Clearing Code</attribute_5>
+		<attribute_6>BI</attribute_6>
+		<attribute_7>5230011</attribute_7>
+		<attribute_8>5230011</attribute_8>
+		<attribute_9>BBBRRRR</attribute_9>
+		<attribute_10>[0-9]{3}[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>7</attribute_12>
+		<attribute_13>7</attribute_13>
+		<attribute_14>ACH</attribute_14>
+		<attribute_17>BI</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO0000000205</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>IE</attribute_1>
+		<attribute_2>IRELAND</attribute_2>
+		<attribute_3>IE-SC6</attribute_3>
+		<attribute_4>Ireland's sort code</attribute_4>
+		<attribute_5>Irish Payment Services Organisation</attribute_5>
+		<attribute_6>SC</attribute_6>
+		<attribute_7>903701</attribute_7>
+		<attribute_8>903701</attribute_8>
+		<attribute_9>BBRRRR</attribute_9>
+		<attribute_10>[0-9]{2}[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_16>IENCC</attribute_16>
+		<attribute_17>IPSO</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO0000000206</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>IM</attribute_1>
+		<attribute_2>ISLE OF MAN</attribute_2>
+		<attribute_3>GB-SC6</attribute_3>
+		<attribute_4>United Kingdom's sort code (used on BACS, CHAPS, FPS and CCCC service)</attribute_4>
+		<attribute_5>Sort Code</attribute_5>
+		<attribute_6>SC</attribute_6>
+		<attribute_7>207305</attribute_7>
+		<attribute_8>207305</attribute_8>
+		<attribute_9>BBRRRR</attribute_9>
+		<attribute_10>[0-9]{2}[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_14>ACH,CHQ,RT-RPS,RTGS</attribute_14>
+		<attribute_16>GBDSC</attribute_16>
+		<attribute_17>SC</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO0000000208</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>IT</attribute_1>
+		<attribute_2>ITALY</attribute_2>
+		<attribute_3>IT-ABICAB10</attribute_3>
+		<attribute_4>Italy's ABICAB (bank/branch code) and IBAN ID</attribute_4>
+		<attribute_5>Associazione Bancaria Italiana Codice Avviamento Bancario</attribute_5>
+		<attribute_6>ABICAB</attribute_6>
+		<attribute_7>0300301600</attribute_7>
+		<attribute_8>0300301600</attribute_8>
+		<attribute_9>BBBBBRRRRR</attribute_9>
+		<attribute_10>[0-9]{5}[0-9]{5}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>10</attribute_12>
+		<attribute_13>10</attribute_13>
+		<attribute_16>ITNCC</attribute_16>
+		<attribute_17>ABICAB</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000020E</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>KE</attribute_1>
+		<attribute_2>KENYA</attribute_2>
+		<attribute_3>KE-EAC5</attribute_3>
+		<attribute_4>Kenya's sort code (EAC format)</attribute_4>
+		<attribute_5>Sort code</attribute_5>
+		<attribute_6>SC</attribute_6>
+		<attribute_7>01204</attribute_7>
+		<attribute_8>01204</attribute_8>
+		<attribute_9>BBRRR</attribute_9>
+		<attribute_10>[0-9]{2}[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>5</attribute_12>
+		<attribute_13>5</attribute_13>
+		<attribute_14>ACH</attribute_14>
+		<attribute_17>KBA</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000020L</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>LS</attribute_1>
+		<attribute_2>LESOTHO</attribute_2>
+		<attribute_3>LS-NCC6</attribute_3>
+		<attribute_4>Lesotho's national clearing code</attribute_4>
+		<attribute_5>Bank Branch Code</attribute_5>
+		<attribute_7>281161</attribute_7>
+		<attribute_8>281161</attribute_8>
+		<attribute_9>BBBRRR</attribute_9>
+		<attribute_10>[0-9]{3}[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_17>CBL</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000020P</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>MO</attribute_1>
+		<attribute_2>MACAO</attribute_2>
+		<attribute_3>MO-AMCM3</attribute_3>
+		<attribute_4>Macao's national clearing code</attribute_4>
+		<attribute_7>101</attribute_7>
+		<attribute_8>101</attribute_8>
+		<attribute_9>BBB</attribute_9>
+		<attribute_10>[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>3</attribute_12>
+		<attribute_13>3</attribute_13>
+		<attribute_17>AMCM</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000020S</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>MW</attribute_1>
+		<attribute_2>MALAWI</attribute_2>
+		<attribute_3>MW-SC6</attribute_3>
+		<attribute_4>Malawi's sort code</attribute_4>
+		<attribute_5>MWKSORT Code</attribute_5>
+		<attribute_6>MWKSORT</attribute_6>
+		<attribute_7>010210</attribute_7>
+		<attribute_8>010210</attribute_8>
+		<attribute_9>BBHHRR</attribute_9>
+		<attribute_10>[0-9]{2}[0-9]{2}[0-9]{2}</attribute_10>
+		<attribute_11>BANK_CODE,AREA_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_17>MWRN</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO0000000211</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>MU</attribute_1>
+		<attribute_2>MAURITIUS</attribute_2>
+		<attribute_3>MU-NCC4</attribute_3>
+		<attribute_4>Mauritius' national clearing code (bank/branch code)</attribute_4>
+		<attribute_5>Bank Code</attribute_5>
+		<attribute_6>BC</attribute_6>
+		<attribute_7>1101</attribute_7>
+		<attribute_8>1101</attribute_8>
+		<attribute_9>BBRR</attribute_9>
+		<attribute_10>[0-9]{2}[0-9]{2}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>4</attribute_12>
+		<attribute_13>4</attribute_13>
+		<attribute_14>ACH,CHQ</attribute_14>
+		<attribute_17>BOM</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO0000000219</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>NA</attribute_1>
+		<attribute_2>NAMIBIA</attribute_2>
+		<attribute_3>NA-NCC6</attribute_3>
+		<attribute_4>Namibia's national clearing code</attribute_4>
+		<attribute_5>Bank Branch Code</attribute_5>
+		<attribute_7>485571</attribute_7>
+		<attribute_8>485571</attribute_8>
+		<attribute_9>BBBBBB</attribute_9>
+		<attribute_10>[0-9]{6}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_17>BON</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000021B</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>NL</attribute_1>
+		<attribute_2>NETHERLANDS</attribute_2>
+		<attribute_3>NL-IBAN4</attribute_3>
+		<attribute_4>Netherlands' national clearing code and IBAN ID</attribute_4>
+		<attribute_5>Bank Code</attribute_5>
+		<attribute_6>BIC</attribute_6>
+		<attribute_7>FTSB</attribute_7>
+		<attribute_8>FTSB</attribute_8>
+		<attribute_9>BBBB</attribute_9>
+		<attribute_10>[A-Z]{4}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>4</attribute_12>
+		<attribute_13>4</attribute_13>
+		<attribute_15>The NATIONAL ID consists of the first 4 characters of the BIC. </attribute_15>
+		<attribute_17>BIC4NL</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000021D</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>NZ</attribute_1>
+		<attribute_2>NEW ZEALAND</attribute_2>
+		<attribute_3>NZ-NCC6</attribute_3>
+		<attribute_4>New Zealand's national clearing code</attribute_4>
+		<attribute_5>Bank Code</attribute_5>
+		<attribute_7>123244</attribute_7>
+		<attribute_8>123244</attribute_8>
+		<attribute_9>BBRRRR</attribute_9>
+		<attribute_10>[0-9]{2}[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_14>ACH</attribute_14>
+		<attribute_16>NZNCC</attribute_16>
+		<attribute_17>NZBA</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000021T</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>PT</attribute_1>
+		<attribute_2>PORTUGAL</attribute_2>
+		<attribute_3>PT-NCC8</attribute_3>
+		<attribute_4>Portugal's còdigo de banco/balcao (bank/branch code)</attribute_4>
+		<attribute_5>Código de Banco/Balcão</attribute_5>
+		<attribute_6>NIB</attribute_6>
+		<attribute_7>53405346</attribute_7>
+		<attribute_8>53405346</attribute_8>
+		<attribute_9>BBBBRRRR</attribute_9>
+		<attribute_10>[0-9]{4}[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>8</attribute_13>
+		<attribute_14>ACH</attribute_14>
+		<attribute_16>PTNCC</attribute_16>
+		<attribute_17>NIB</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000022C</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>SG</attribute_1>
+		<attribute_2>SINGAPORE</attribute_2>
+		<attribute_3>SG-NCC7</attribute_3>
+		<attribute_4>Singapore's bank/branch code</attribute_4>
+		<attribute_5>National Clearing Code</attribute_5>
+		<attribute_6>NCC</attribute_6>
+		<attribute_7>7083015</attribute_7>
+		<attribute_8>7083015</attribute_8>
+		<attribute_9>BBBBRRR</attribute_9>
+		<attribute_10>[0-9]{4}[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>7</attribute_12>
+		<attribute_13>7</attribute_13>
+		<attribute_16>SGIBG</attribute_16>
+		<attribute_17>MAS</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000022G</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>ZA</attribute_1>
+		<attribute_2>SOUTH AFRICA</attribute_2>
+		<attribute_3>ZA-NCC6</attribute_3>
+		<attribute_4>South Africa's national clearing code</attribute_4>
+		<attribute_5>National Clearing Code</attribute_5>
+		<attribute_6>ZANCC</attribute_6>
+		<attribute_7>141848</attribute_7>
+		<attribute_8>141848</attribute_8>
+		<attribute_9>BBBBBB</attribute_9>
+		<attribute_10>[0-9]{6}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_14>ACH,RT-RPS</attribute_14>
+		<attribute_16>ZANCC</attribute_16>
+		<attribute_17>BANKSERV</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000022J</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>SZ</attribute_1>
+		<attribute_2>ESWATINI</attribute_2>
+		<attribute_3>SZ-NCC6</attribute_3>
+		<attribute_4>Eswatini's national clearing code (bank/branch code)</attribute_4>
+		<attribute_5>Bank Branch Code</attribute_5>
+		<attribute_7>770011</attribute_7>
+		<attribute_8>770011</attribute_8>
+		<attribute_9>BBKRRR</attribute_9>
+		<attribute_10>[0-9]{2}[0-9]{1}[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE,CHECKSUM,BRANCH_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_14>ACH</attribute_14>
+		<attribute_17>SWIPSS</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000022K</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>SE</attribute_1>
+		<attribute_2>SWEDEN</attribute_2>
+		<attribute_3>SE-CN4</attribute_3>
+		<attribute_4>Sweden's national clearing code (used on K RIX, E RIX, BANKGIROT and RIX INST system)</attribute_4>
+		<attribute_5>Clearingnummer</attribute_5>
+		<attribute_7>6315</attribute_7>
+		<attribute_8>6315</attribute_8>
+		<attribute_9>BBBB</attribute_9>
+		<attribute_10>[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>4</attribute_12>
+		<attribute_13>4</attribute_13>
+		<attribute_14>ACH,RT-RPS,RTGS</attribute_14>
+		<attribute_16>SESBA</attribute_16>
+		<attribute_17>SBA</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000022L</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>SE</attribute_1>
+		<attribute_2>SWEDEN</attribute_2>
+		<attribute_3>SE-IBAN3</attribute_3>
+		<attribute_4>Sweden's IBAN National ID used in creation of IBANS</attribute_4>
+		<attribute_5>IBAN National ID</attribute_5>
+		<attribute_7>295</attribute_7>
+		<attribute_8>295</attribute_8>
+		<attribute_9>BBB</attribute_9>
+		<attribute_10>[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>3</attribute_12>
+		<attribute_13>3</attribute_13>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000022N</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>TW</attribute_1>
+		<attribute_2>TAIWAN</attribute_2>
+		<attribute_3>TW-NCC7</attribute_3>
+		<attribute_4>Taiwan's national clearing code (bank/branch code)</attribute_4>
+		<attribute_5>Bank Code</attribute_5>
+		<attribute_7>1030000</attribute_7>
+		<attribute_8>1030000</attribute_8>
+		<attribute_9>BBBRRRR</attribute_9>
+		<attribute_10>[0-9]{3}[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>7</attribute_12>
+		<attribute_13>7</attribute_13>
+		<attribute_14>ACH,RTGS</attribute_14>
+		<attribute_16>TWNCC</attribute_16>
+		<attribute_17>CBCTW</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000022P</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>TZ</attribute_1>
+		<attribute_2>TANZANIA, UNITED REPUBLIC OF</attribute_2>
+		<attribute_3>TZ-NCC6</attribute_3>
+		<attribute_4>Tanzania's sort code (bank/branch code)</attribute_4>
+		<attribute_5>Sort Code</attribute_5>
+		<attribute_7>691607</attribute_7>
+		<attribute_8>691607</attribute_8>
+		<attribute_9>BBBRRR</attribute_9>
+		<attribute_10>[0-9]{3}[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_14>ACH,RT-RPS</attribute_14>
+		<attribute_17>BOT</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000022W</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>TR</attribute_1>
+		<attribute_2>TURKIYE</attribute_2>
+		<attribute_3>TR-BK9</attribute_3>
+		<attribute_4>Turkey's banda kodu (bank/branch code)</attribute_4>
+		<attribute_5>Banda Kodu</attribute_5>
+		<attribute_7>012509118</attribute_7>
+		<attribute_8>012509118</attribute_8>
+		<attribute_9>BBBBRRRRR</attribute_9>
+		<attribute_10>[0-9]{4}[0-9]{5}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>9</attribute_12>
+		<attribute_13>9</attribute_13>
+		<attribute_14>RTGS</attribute_14>
+		<attribute_17>TCMB</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000022X</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>TR</attribute_1>
+		<attribute_2>TURKIYE</attribute_2>
+		<attribute_3>TR-IBAN5</attribute_3>
+		<attribute_4>Turkey's IBAN National ID used in creation of IBANS</attribute_4>
+		<attribute_5>IBAN National ID</attribute_5>
+		<attribute_7>00125</attribute_7>
+		<attribute_8>00125</attribute_8>
+		<attribute_9>BBBBB</attribute_9>
+		<attribute_10>[0-9]{5}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>5</attribute_12>
+		<attribute_13>5</attribute_13>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000022Y</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>UG</attribute_1>
+		<attribute_2>UGANDA</attribute_2>
+		<attribute_3>UG-SC6</attribute_3>
+		<attribute_4>Uganda's sort code</attribute_4>
+		<attribute_5>Sort Code</attribute_5>
+		<attribute_6>SC</attribute_6>
+		<attribute_7>020247</attribute_7>
+		<attribute_8>020247</attribute_8>
+		<attribute_9>BBRRRR</attribute_9>
+		<attribute_10>[0-9]{2}[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_14>ACH</attribute_14>
+		<attribute_17>UGSC</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000022Z</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>UA</attribute_1>
+		<attribute_2>UKRAINE</attribute_2>
+		<attribute_3>UA-MFO6</attribute_3>
+		<attribute_4>Ukraine's MFO code (bank code) and IBAN ID</attribute_4>
+		<attribute_5>MFO code</attribute_5>
+		<attribute_6>МФО</attribute_6>
+		<attribute_7>300346</attribute_7>
+		<attribute_8>300346</attribute_8>
+		<attribute_9>BBBBBB</attribute_9>
+		<attribute_10>[0-9]{6}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_14>RTGS</attribute_14>
+		<attribute_17>MFO</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO0000000232</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>GB</attribute_1>
+		<attribute_2>UNITED KINGDOM</attribute_2>
+		<attribute_3>GB-SC6</attribute_3>
+		<attribute_4>United Kingdom's sort code (used on BACS, CHAPS, FPS and CCCC service)</attribute_4>
+		<attribute_5>Sort Code</attribute_5>
+		<attribute_6>SC</attribute_6>
+		<attribute_7>207305</attribute_7>
+		<attribute_8>207305</attribute_8>
+		<attribute_9>BBRRRR</attribute_9>
+		<attribute_10>[0-9]{2}[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_14>ACH,CHQ,RT-RPS,RTGS</attribute_14>
+		<attribute_16>GBDSC</attribute_16>
+		<attribute_17>SC</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO0000000233</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>US</attribute_1>
+		<attribute_2>UNITED STATES OF AMERICA</attribute_2>
+		<attribute_3>US-ABA9</attribute_3>
+		<attribute_4>An ABA number (also known as routing number or routing transfer number) is a 9 digit code used by banks to identify specific financial institutions within the USA and US territories</attribute_4>
+		<attribute_5>Routing Number</attribute_5>
+		<attribute_6>ABA</attribute_6>
+		<attribute_7>211770093</attribute_7>
+		<attribute_8>211770093</attribute_8>
+		<attribute_9>BBBBIIIIK</attribute_9>
+		<attribute_10>[0-9]{4}[0-9]{4}[0-9]{1}</attribute_10>
+		<attribute_11>BANK_CODE,INSTITUTION_CODE,CHECKSUM</attribute_11>
+		<attribute_12>9</attribute_12>
+		<attribute_13>9</attribute_13>
+		<attribute_14>ACH,RT-RPS,RTGS</attribute_14>
+		<attribute_16>USABA</attribute_16>
+		<attribute_17>ABA</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000023B</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>ZM</attribute_1>
+		<attribute_2>ZAMBIA</attribute_2>
+		<attribute_3>ZM-SC6</attribute_3>
+		<attribute_4>Zambia's clearing code</attribute_4>
+		<attribute_5>Sort Code</attribute_5>
+		<attribute_6>SC</attribute_6>
+		<attribute_7>020713</attribute_7>
+		<attribute_8>020713</attribute_8>
+		<attribute_9>BBRRKK</attribute_9>
+		<attribute_10>[0-9]{2}[0-9]{2}[0-9]{2}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE,CHECKSUM</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_14>CHQ</attribute_14>
+		<attribute_17>BOZ</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000023C</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>GB</attribute_1>
+		<attribute_2>UNITED KINGDOM</attribute_2>
+		<attribute_3>GB-IBAN10</attribute_3>
+		<attribute_4>United Kingdom's IBAN National ID used in creation of IBANS</attribute_4>
+		<attribute_5>IBAN National ID</attribute_5>
+		<attribute_7>BARC207305</attribute_7>
+		<attribute_8>BARC207305</attribute_8>
+		<attribute_9>BBBBRRRRRR</attribute_9>
+		<attribute_10>[A-Z]{4}[0-9]{6}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>10</attribute_12>
+		<attribute_13>10</attribute_13>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000023E</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>IE</attribute_1>
+		<attribute_2>IRELAND</attribute_2>
+		<attribute_3>IE-ISC10</attribute_3>
+		<attribute_4>Ireland's IBAN National ID used in creation of IBANS</attribute_4>
+		<attribute_5>IBAN National ID</attribute_5>
+		<attribute_7>BOFI903701</attribute_7>
+		<attribute_8>BOFI903701</attribute_8>
+		<attribute_9>BBBBRRRRRR</attribute_9>
+		<attribute_10>[A-Z]{4}[0-9]{6}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>10</attribute_12>
+		<attribute_13>10</attribute_13>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000023H</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>MU</attribute_1>
+		<attribute_2>MAURITIUS</attribute_2>
+		<attribute_3>MU-IBAN8</attribute_3>
+		<attribute_4>Mauritius' IBAN National ID used in creation of IBANS</attribute_4>
+		<attribute_5>IBAN National ID</attribute_5>
+		<attribute_6>IBAN</attribute_6>
+		<attribute_7>STCB1101</attribute_7>
+		<attribute_8>STCB1101</attribute_8>
+		<attribute_9>BBBBBBRR</attribute_9>
+		<attribute_10>[A-Z0-9]{6}[0-9]{2}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>8</attribute_13>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000023L</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>NG</attribute_1>
+		<attribute_2>NIGERIA</attribute_2>
+		<attribute_3>NG-NCC9</attribute_3>
+		<attribute_4>Nigeria's sort code (bank/branch code)</attribute_4>
+		<attribute_5>Sort Code</attribute_5>
+		<attribute_7>069441642</attribute_7>
+		<attribute_8>069441642</attribute_8>
+		<attribute_9>BBBRRRRRR</attribute_9>
+		<attribute_10>[0-9]{3}[0-9]{6}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>9</attribute_12>
+		<attribute_13>9</attribute_13>
+		<attribute_17>CBN</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000023N</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>ZW</attribute_1>
+		<attribute_2>ZIMBABWE</attribute_2>
+		<attribute_3>ZW-SC5</attribute_3>
+		<attribute_4>Zimbabwe's sort code</attribute_4>
+		<attribute_5>Sort Code</attribute_5>
+		<attribute_6>SC</attribute_6>
+		<attribute_7>19000</attribute_7>
+		<attribute_8>19000</attribute_8>
+		<attribute_9>BBRRR</attribute_9>
+		<attribute_10>[0-9]{2}[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>5</attribute_12>
+		<attribute_13>5</attribute_13>
+		<attribute_16>ZWTSS</attribute_16>
+		<attribute_17>RBZ</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000024F</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>US</attribute_1>
+		<attribute_2>UNITED STATES OF AMERICA</attribute_2>
+		<attribute_3>US-CHIPS4</attribute_3>
+		<attribute_4>The CHIPSID is the CHIPS' proprietary clearing code of a direct participant</attribute_4>
+		<attribute_5>CHIPS ID</attribute_5>
+		<attribute_6>CHIPSID</attribute_6>
+		<attribute_7>0049</attribute_7>
+		<attribute_8>0049</attribute_8>
+		<attribute_9>BBBB</attribute_9>
+		<attribute_10>[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>4</attribute_12>
+		<attribute_13>4</attribute_13>
+		<attribute_16>USPID</attribute_16>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000024H</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>SE</attribute_1>
+		<attribute_2>SWEDEN</attribute_2>
+		<attribute_3>SE-NCC5</attribute_3>
+		<attribute_4>Sweden's national clearing code</attribute_4>
+		<attribute_5>clearingnummer</attribute_5>
+		<attribute_7>83311</attribute_7>
+		<attribute_8>83311</attribute_8>
+		<attribute_9>BBBBB</attribute_9>
+		<attribute_10>[0-9]{5}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>5</attribute_12>
+		<attribute_13>5</attribute_13>
+		<attribute_17>SBA/AN</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000024I</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>ID</attribute_1>
+		<attribute_2>INDONESIA</attribute_2>
+		<attribute_3>ID-NCC8</attribute_3>
+		<attribute_4>Indonesia's national clearing code.  Note that while the ID resembles a BIC, it is not necessarily an ISO‑registered BIC issued by Swift (used on SKNBI ACH service)</attribute_4>
+		<attribute_5>Clearing Code</attribute_5>
+		<attribute_6>BIDID</attribute_6>
+		<attribute_7>SYNAIDJ1</attribute_7>
+		<attribute_8>SYNAIDJ1</attribute_8>
+		<attribute_9>BBBBBBBB</attribute_9>
+		<attribute_10>[A-Z0-9]{8}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>8</attribute_13>
+		<attribute_14>ACH</attribute_14>
+		<attribute_17>BIDID</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000024Y</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>CD</attribute_1>
+		<attribute_2>CONGO, THE DEMOCRATIC REPUBLIC OF THE</attribute_2>
+		<attribute_3>CD-CEMAC5</attribute_3>
+		<attribute_4>Congo Democratic Republic's national clearing code CEMAC area format (bank code used on CEMAC SYGMA RN service)</attribute_4>
+		<attribute_5>CEMAC Bank/Branch Code</attribute_5>
+		<attribute_7>32002</attribute_7>
+		<attribute_8>32002</attribute_8>
+		<attribute_9>BBBBB</attribute_9>
+		<attribute_10>[0-9]{5}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>5</attribute_12>
+		<attribute_13>5</attribute_13>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000025E</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>US</attribute_1>
+		<attribute_2>UNITED STATES OF AMERICA</attribute_2>
+		<attribute_3>US-CHIPSUID6</attribute_3>
+		<attribute_4>CHIPSUID is the CHIPS' proprietary clearing code of any bank that is indirectly reachable via a direct CHIPS participant</attribute_4>
+		<attribute_5>CHIPS Universal ID</attribute_5>
+		<attribute_6>CHIPSUID</attribute_6>
+		<attribute_7>004966</attribute_7>
+		<attribute_8>004966</attribute_8>
+		<attribute_9>BBBBBB</attribute_9>
+		<attribute_10>[0-9]{6}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000054B</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>JE</attribute_1>
+		<attribute_2>JERSEY</attribute_2>
+		<attribute_3>GB-SC6</attribute_3>
+		<attribute_4>United Kingdom's sort code (used on BACS, CHAPS, FPS and CCCC service)</attribute_4>
+		<attribute_5>Sort Code</attribute_5>
+		<attribute_6>SC</attribute_6>
+		<attribute_7>207305</attribute_7>
+		<attribute_8>207305</attribute_8>
+		<attribute_9>BBRRRR</attribute_9>
+		<attribute_10>[0-9]{2}[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_14>ACH,CHQ,RT-RPS,RTGS</attribute_14>
+		<attribute_16>GBDSC</attribute_16>
+		<attribute_17>SC</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000054C</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>JP</attribute_1>
+		<attribute_2>JAPAN</attribute_2>
+		<attribute_3>JP-ZGN7</attribute_3>
+		<attribute_4>Japan's (Zengin) national clearing code (bank/branch code)</attribute_4>
+		<attribute_5>Zengin Code</attribute_5>
+		<attribute_6>ZC</attribute_6>
+		<attribute_7>0430841</attribute_7>
+		<attribute_8>0430841</attribute_8>
+		<attribute_9>BBBBRRR</attribute_9>
+		<attribute_10>[0-9]{4}[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>7</attribute_12>
+		<attribute_13>7</attribute_13>
+		<attribute_14>ACH,RTGS</attribute_14>
+		<attribute_16>JPZGN</attribute_16>
+		<attribute_17>ZENGIN</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000054E</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>GH</attribute_1>
+		<attribute_2>GHANA</attribute_2>
+		<attribute_3>GH-RN6</attribute_3>
+		<attribute_4>Ghana's routing number</attribute_4>
+		<attribute_7>300481</attribute_7>
+		<attribute_8>300481</attribute_8>
+		<attribute_9>BBBBBB</attribute_9>
+		<attribute_10>[0-9]{6}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_17>GH-RN6</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO0000000556</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>TR</attribute_1>
+		<attribute_2>TURKIYE</attribute_2>
+		<attribute_3>TR-BK4</attribute_3>
+		<attribute_4>4 digits of full TCMB code (bank code of Turkey's national clearing code)</attribute_4>
+		<attribute_5>Banda Kodu</attribute_5>
+		<attribute_7>0125</attribute_7>
+		<attribute_8>0125</attribute_8>
+		<attribute_9>BBBB</attribute_9>
+		<attribute_10>[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>4</attribute_12>
+		<attribute_13>4</attribute_13>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO0000000557</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>BR</attribute_1>
+		<attribute_2>BRAZIL</attribute_2>
+		<attribute_3>BR-COMPE3</attribute_3>
+		<attribute_4>Brazil's national clearing code used to clear funds and payments routing (bank code)</attribute_4>
+		<attribute_6>COMPE</attribute_6>
+		<attribute_7>213</attribute_7>
+		<attribute_8>213</attribute_8>
+		<attribute_9>BBB</attribute_9>
+		<attribute_10>[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>3</attribute_12>
+		<attribute_13>3</attribute_13>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000055G</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>TZ</attribute_1>
+		<attribute_2>TANZANIA, UNITED REPUBLIC OF</attribute_2>
+		<attribute_3>TZ-NCC3</attribute_3>
+		<attribute_4>Tanzania's national clearing code</attribute_4>
+		<attribute_7>020</attribute_7>
+		<attribute_8>020</attribute_8>
+		<attribute_9>BBB</attribute_9>
+		<attribute_10>[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>3</attribute_12>
+		<attribute_13>3</attribute_13>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO0000000572</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>JP</attribute_1>
+		<attribute_2>JAPAN</attribute_2>
+		<attribute_3>JP-ZGN4</attribute_3>
+		<attribute_4>Japan's (Zengin) national clearing code (bank code used on FXYCS and BOJ NET system)</attribute_4>
+		<attribute_5>Zengin Code</attribute_5>
+		<attribute_7>0430</attribute_7>
+		<attribute_8>0430</attribute_8>
+		<attribute_9>BBBB</attribute_9>
+		<attribute_10>[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>4</attribute_12>
+		<attribute_13>4</attribute_13>
+		<attribute_14>RTGS</attribute_14>
+		<attribute_17>JP-ZGN4</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO0000000576</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>AO</attribute_1>
+		<attribute_2>ANGOLA</attribute_2>
+		<attribute_3>AO-BC4</attribute_3>
+		<attribute_4>Angola's bank code</attribute_4>
+		<attribute_7>0051</attribute_7>
+		<attribute_8>0051</attribute_8>
+		<attribute_9>BBBB</attribute_9>
+		<attribute_10>[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>4</attribute_12>
+		<attribute_13>4</attribute_13>
+		<attribute_17>AO-BC4</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000057D</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>BR</attribute_1>
+		<attribute_2>BRAZIL</attribute_2>
+		<attribute_3>BR-COMPE7</attribute_3>
+		<attribute_4>Brazil's national clearing code used to clear funds and payments routing (bank/branch code)</attribute_4>
+		<attribute_5>Codigo COMPE</attribute_5>
+		<attribute_6>COMPE</attribute_6>
+		<attribute_7>2130001</attribute_7>
+		<attribute_8>2130001</attribute_8>
+		<attribute_9>BBBRRRR</attribute_9>
+		<attribute_10>[0-9]{3}[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>7</attribute_12>
+		<attribute_13>7</attribute_13>
+		<attribute_15>CHECKSUM - Calculated by the clearing system using MOD11 algorithm</attribute_15>
+		<attribute_17>COMPE</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000057F</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>MZ</attribute_1>
+		<attribute_2>MOZAMBIQUE</attribute_2>
+		<attribute_3>MZ-NCC2</attribute_3>
+		<attribute_4>Mozambique's national clearing code and IBAN ID</attribute_4>
+		<attribute_7>23</attribute_7>
+		<attribute_8>23</attribute_8>
+		<attribute_9>BB</attribute_9>
+		<attribute_10>[0-9]{2}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>2</attribute_12>
+		<attribute_13>2</attribute_13>
+		<attribute_16>MZBMO</attribute_16>
+		<attribute_17>BM</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000057J</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>IM</attribute_1>
+		<attribute_2>ISLE OF MAN</attribute_2>
+		<attribute_3>GB-IBAN10</attribute_3>
+		<attribute_4>United Kingdom's IBAN National ID used in creation of IBANS</attribute_4>
+		<attribute_5>IBAN National ID</attribute_5>
+		<attribute_7>BARC207305</attribute_7>
+		<attribute_8>BARC207305</attribute_8>
+		<attribute_9>BBBBRRRRRR</attribute_9>
+		<attribute_10>[A-Z]{4}[0-9]{6}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>10</attribute_12>
+		<attribute_13>10</attribute_13>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO000000057K</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>JE</attribute_1>
+		<attribute_2>JERSEY</attribute_2>
+		<attribute_3>GB-IBAN10</attribute_3>
+		<attribute_4>United Kingdom's IBAN National ID used in creation of IBANS</attribute_4>
+		<attribute_5>IBAN National ID</attribute_5>
+		<attribute_7>BARC207305</attribute_7>
+		<attribute_8>BARC207305</attribute_8>
+		<attribute_9>BBBBRRRRRR</attribute_9>
+		<attribute_10>[A-Z]{4}[0-9]{6}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>10</attribute_12>
+		<attribute_13>10</attribute_13>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005BM</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>CI</attribute_1>
+		<attribute_2>COTE D'IVOIRE</attribute_2>
+		<attribute_3>CI-NCC10</attribute_3>
+		<attribute_4>Cote D'Ivoire's national clearing code WAEMU/UEMOA area format (bank/branch code)</attribute_4>
+		<attribute_7>CI05901001</attribute_7>
+		<attribute_8>CI05901001</attribute_8>
+		<attribute_9>BBBBBRRRRR</attribute_9>
+		<attribute_10>[A-Z0-9]{5}[0-9]{5}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>10</attribute_12>
+		<attribute_13>10</attribute_13>
+		<attribute_17>CI-NCC10</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005DK</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>CD</attribute_1>
+		<attribute_2>CONGO, THE DEMOCRATIC REPUBLIC OF THE</attribute_2>
+		<attribute_3>CD-NCC10</attribute_3>
+		<attribute_4>Congo Democratic Republic's national clearing code CEMAC area format (bank/branch code)</attribute_4>
+		<attribute_5>CEMAC Bank/Branch Code</attribute_5>
+		<attribute_7>0001501000</attribute_7>
+		<attribute_8>0001501000</attribute_8>
+		<attribute_9>BBBBBRRRRR</attribute_9>
+		<attribute_10>[0-9]{5}[0-9]{5}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>10</attribute_12>
+		<attribute_13>10</attribute_13>
+		<attribute_17>CD-NCC10</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005E8</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>ES</attribute_1>
+		<attribute_2>SPAIN</attribute_2>
+		<attribute_3>ES-NCC8</attribute_3>
+		<attribute_4>Spain's national clearing code and IBAN ID</attribute_4>
+		<attribute_5>código bancario</attribute_5>
+		<attribute_7>14900001</attribute_7>
+		<attribute_8>14900001</attribute_8>
+		<attribute_9>BBBBRRRR</attribute_9>
+		<attribute_10>[0-9]{4}[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>8</attribute_13>
+		<attribute_14>ACH</attribute_14>
+		<attribute_16>ESNCC</attribute_16>
+		<attribute_17>ES-NCC8</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005FT</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>MZ</attribute_1>
+		<attribute_2>MOZAMBIQUE</attribute_2>
+		<attribute_3>MZ-NCC8</attribute_3>
+		<attribute_4>Mozambique's national clearing code (bank/branch code)</attribute_4>
+		<attribute_7>00340100</attribute_7>
+		<attribute_8>00340100</attribute_8>
+		<attribute_9>BBBBRRRR</attribute_9>
+		<attribute_10>[0-9]{4}[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>8</attribute_13>
+		<attribute_17>MZ-NCC8</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005G3</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>ID</attribute_1>
+		<attribute_2>INDONESIA</attribute_2>
+		<attribute_3>ID-NCC3</attribute_3>
+		<attribute_4>Indonesia's national clearing code (bank code used on RINTIS service)</attribute_4>
+		<attribute_5>Clearing Code</attribute_5>
+		<attribute_7>523</attribute_7>
+		<attribute_8>523</attribute_8>
+		<attribute_9>BBB</attribute_9>
+		<attribute_10>[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>3</attribute_12>
+		<attribute_13>3</attribute_13>
+		<attribute_17>ID-NCC3</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005G4</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>NG</attribute_1>
+		<attribute_2>NIGERIA</attribute_2>
+		<attribute_3>NG-NCC3</attribute_3>
+		<attribute_4>Nigeria's sort code (bank code)</attribute_4>
+		<attribute_5>Sort Code</attribute_5>
+		<attribute_7>023</attribute_7>
+		<attribute_8>023</attribute_8>
+		<attribute_9>BBB</attribute_9>
+		<attribute_10>[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>3</attribute_12>
+		<attribute_13>3</attribute_13>
+		<attribute_17>NG-NCC3</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005GJ</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>MZ</attribute_1>
+		<attribute_2>MOZAMBIQUE</attribute_2>
+		<attribute_3>MZ-BC4</attribute_3>
+		<attribute_4>Mozambique's bank code</attribute_4>
+		<attribute_7>0008</attribute_7>
+		<attribute_8>0008</attribute_8>
+		<attribute_9>BBBB</attribute_9>
+		<attribute_10>[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>4</attribute_12>
+		<attribute_13>4</attribute_13>
+		<attribute_17>MZ-BC4</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005GK</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>NG</attribute_1>
+		<attribute_2>NIGERIA</attribute_2>
+		<attribute_3>NG-NCC6</attribute_3>
+		<attribute_4>Nigeria's national clearing code (bank code)</attribute_4>
+		<attribute_7>000014</attribute_7>
+		<attribute_8>000014</attribute_8>
+		<attribute_9>BBBBBB</attribute_9>
+		<attribute_10>[0-9]{6}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_17>NG-NCC6</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005GM</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>TW</attribute_1>
+		<attribute_2>TAIWAN</attribute_2>
+		<attribute_3>TW-BC3</attribute_3>
+		<attribute_4>Taiwan's bank code</attribute_4>
+		<attribute_5>Bank Code</attribute_5>
+		<attribute_7>103</attribute_7>
+		<attribute_8>103</attribute_8>
+		<attribute_9>BBB</attribute_9>
+		<attribute_10>[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>3</attribute_12>
+		<attribute_13>3</attribute_13>
+		<attribute_17>TW-BC3</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005ID</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>KE</attribute_1>
+		<attribute_2>KENYA</attribute_2>
+		<attribute_3>KE-SC8</attribute_3>
+		<attribute_4>The Kenyan sort code with '404' appended to the start</attribute_4>
+		<attribute_5>Sort code</attribute_5>
+		<attribute_7>40455001</attribute_7>
+		<attribute_8>40455001</attribute_8>
+		<attribute_9>OOOBBRRR</attribute_9>
+		<attribute_10>404[0-9]{2}[0-9]{3}</attribute_10>
+		<attribute_11>OTHER_CODE,BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>8</attribute_12>
+		<attribute_13>8</attribute_13>
+		<attribute_17>KE-SC8</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005IE</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>TR</attribute_1>
+		<attribute_2>TURKIYE</attribute_2>
+		<attribute_3>TR-TCMB12</attribute_3>
+		<attribute_4>Turkey's banda kodu plus Il Kodu (bank/branch code)</attribute_4>
+		<attribute_5>Banda Kodu</attribute_5>
+		<attribute_7>010000600034</attribute_7>
+		<attribute_8>010000600034</attribute_8>
+		<attribute_9>BBBBRRRRRHHH</attribute_9>
+		<attribute_10>[0-9]{4}[0-9]{5}[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE,AREA_CODE</attribute_11>
+		<attribute_12>12</attribute_12>
+		<attribute_13>12</attribute_13>
+		<attribute_17>TR-TCMB12</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005JG</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>CA</attribute_1>
+		<attribute_2>CANADA</attribute_2>
+		<attribute_3>CA-NCC3</attribute_3>
+		<attribute_4>Canada's national clearing code (used on LVTS, LYNX service)</attribute_4>
+		<attribute_6>EFT</attribute_6>
+		<attribute_7>507</attribute_7>
+		<attribute_8>507</attribute_8>
+		<attribute_9>BBB</attribute_9>
+		<attribute_10>[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>3</attribute_12>
+		<attribute_13>3</attribute_13>
+		<attribute_17>CA-NCC3</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005JK</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>MU</attribute_1>
+		<attribute_2>MAURITIUS</attribute_2>
+		<attribute_3>MU-NCC6</attribute_3>
+		<attribute_4>Mauritius' local clearing code</attribute_4>
+		<attribute_7>020408</attribute_7>
+		<attribute_8>020408</attribute_8>
+		<attribute_9>BBBBBB</attribute_9>
+		<attribute_10>[0-9]{6}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>6</attribute_12>
+		<attribute_13>6</attribute_13>
+		<attribute_17>MU-NCC6</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005MS</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>ES</attribute_1>
+		<attribute_2>SPAIN</attribute_2>
+		<attribute_3>ES-CB4</attribute_3>
+		<attribute_4>Spain's Bank Code</attribute_4>
+		<attribute_7>0011</attribute_7>
+		<attribute_8>0011</attribute_8>
+		<attribute_9>BBBB</attribute_9>
+		<attribute_10>[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>4</attribute_12>
+		<attribute_13>4</attribute_13>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005MT</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>GB</attribute_1>
+		<attribute_2>UNITED KINGDOM</attribute_2>
+		<attribute_3>GB-BC4</attribute_3>
+		<attribute_4>Bank code</attribute_4>
+		<attribute_7>0008</attribute_7>
+		<attribute_8>0008</attribute_8>
+		<attribute_9>BBBB</attribute_9>
+		<attribute_10>[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>4</attribute_12>
+		<attribute_13>4</attribute_13>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005MU</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>GB</attribute_1>
+		<attribute_2>UNITED KINGDOM</attribute_2>
+		<attribute_3>GB-CHAPS3</attribute_3>
+		<attribute_4>The numeric CHAPS ID of the CHAPS £ member that settles the CHAPS £ payments for this bank office</attribute_4>
+		<attribute_7>006</attribute_7>
+		<attribute_8>006</attribute_8>
+		<attribute_9>BBB</attribute_9>
+		<attribute_10>[0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>3</attribute_12>
+		<attribute_13>3</attribute_13>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005N1</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>HK</attribute_1>
+		<attribute_2>HONG KONG</attribute_2>
+		<attribute_3>HK-ICC3</attribute_3>
+		<attribute_4>Hong Kong's domestic bank code (used on FPS service)</attribute_4>
+		<attribute_5>Clearing Code</attribute_5>
+		<attribute_7>278</attribute_7>
+		<attribute_8>278</attribute_8>
+		<attribute_9>BBB</attribute_9>
+		<attribute_10>[A-Z0-9]{3}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>3</attribute_12>
+		<attribute_13>3</attribute_13>
+		<attribute_16>HKNCC</attribute_16>
+		<attribute_17>HK-ICC3</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005NA</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>KE</attribute_1>
+		<attribute_2>KENYA</attribute_2>
+		<attribute_3>KE-NCC4</attribute_3>
+		<attribute_4>Kenyan National Clearing Code</attribute_4>
+		<attribute_7>0035</attribute_7>
+		<attribute_8>0035</attribute_8>
+		<attribute_9>BBBB</attribute_9>
+		<attribute_10>[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>4</attribute_12>
+		<attribute_13>4</attribute_13>
+		<attribute_14>RT-RPS</attribute_14>
+		<attribute_17>KE-NCC4</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005NH</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>MU</attribute_1>
+		<attribute_2>MAURITIUS</attribute_2>
+		<attribute_3>MU-NCC2</attribute_3>
+		<attribute_4>Mauritius' national clearing code (bank code used on PLACH and CTS system)</attribute_4>
+		<attribute_5>Bank Code</attribute_5>
+		<attribute_7>11</attribute_7>
+		<attribute_8>11</attribute_8>
+		<attribute_9>BB</attribute_9>
+		<attribute_10>[0-9]{2}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>2</attribute_12>
+		<attribute_13>2</attribute_13>
+		<attribute_17>MU-NCC2</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005NQ</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>FR</attribute_1>
+		<attribute_2>FRANCE</attribute_2>
+		<attribute_3>FR-CBG10</attribute_3>
+		<attribute_4>France's code banque/code guichet (bank/branch code). (FR format) and IBAN ID</attribute_4>
+		<attribute_5>Code Banque/Guichet</attribute_5>
+		<attribute_6>RIB</attribute_6>
+		<attribute_7>1027800193</attribute_7>
+		<attribute_8>1027800193</attribute_8>
+		<attribute_9>BBBBBRRRRR</attribute_9>
+		<attribute_10>[0-9]{5}[0-9]{5}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>10</attribute_12>
+		<attribute_13>10</attribute_13>
+		<attribute_14>ACH</attribute_14>
+		<attribute_17>RIB</attribute_17>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005PK</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>PT</attribute_1>
+		<attribute_2>PORTUGAL</attribute_2>
+		<attribute_3>PT-IBAN4</attribute_3>
+		<attribute_4>Portugal's IBAN National ID used in creation of IBANS</attribute_4>
+		<attribute_5>Código de Banco/Balcão</attribute_5>
+		<attribute_7>5340</attribute_7>
+		<attribute_8>5340</attribute_8>
+		<attribute_9>BBBB</attribute_9>
+		<attribute_10>[0-9]{4}</attribute_10>
+		<attribute_11>BANK_CODE</attribute_11>
+		<attribute_12>4</attribute_12>
+		<attribute_13>4</attribute_13>
+	</formats-ctry-v1>
+	<formats-ctry-v1>
+		<modification_type>A</modification_type>
+		<record_key>FO00000005Q7</record_key>
+		<record_structure>ID FORMAT</record_structure>
+		<record_content_type>D</record_content_type>
+		<record_status>C</record_status>
+		<attribute_1>BR</attribute_1>
+		<attribute_2>BRAZIL</attribute_2>
+		<attribute_3>BR-IBAN13</attribute_3>
+		<attribute_4>Brazil's IBAN National ID used in creation of IBANS</attribute_4>
+		<attribute_5>IBAN National ID</attribute_5>
+		<attribute_7>1930778500001</attribute_7>
+		<attribute_8>1930778500001</attribute_8>
+		<attribute_9>BBBBBBBBRRRRR</attribute_9>
+		<attribute_10>[0-9]{8}[0-9]{5}</attribute_10>
+		<attribute_11>BANK_CODE,BRANCH_CODE</attribute_11>
+		<attribute_12>13</attribute_12>
+		<attribute_13>13</attribute_13>
+	</formats-ctry-v1>
+</dataexport>
